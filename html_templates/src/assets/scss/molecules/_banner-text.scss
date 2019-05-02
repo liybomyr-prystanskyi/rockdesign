@@ -1,0 +1,42 @@
+.default-banner-info {
+	width: 100%;
+	height: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+  h2 {
+		font-size:5.625rem;
+		color: #fff;
+		font-family:'Helvetica Bold';
+		margin: 0;
+		text-shadow: 0 0px 1px #A7B5C5;
+		width: 100%;
+		margin: 0 auto 15px;
+		max-width: 815px;
+		text-align: center;
+		letter-spacing: .875rem;
+	}
+  p {
+		font-family:'Helvetica Light';
+		font-size:1.25rem;
+		color: #fff;
+		background-color:rgba(167, 181, 197,.6);
+		width: 100%;
+		max-width: 815px;
+		margin: 0 auto;
+		padding: 15px 70px;
+		text-align: center;
+		line-height: 1.5rem;
+		border: 1px solid #8E8E8E;
+	}
+}
+@media screen and (max-width:992px) {
+	.default-banner-info {
+		h2 {
+			font-size: 2rem;
+		}
+	}
+}

@@ -1,0 +1,166 @@
+.catalog-section {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 85px;
+  &__title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 77px 0 0 0;
+    h2 {
+      font-size: 1.875rem;
+      text-align: center;
+      color: #59708F;
+      margin: 0;
+      position: relative;
+      text-align: left;
+      padding-left: 50px;
+    }
+  }
+  &__sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-top: 11px;
+    h2 {
+      margin: 0 0 55px 0;
+      color: #8194ab;
+      font-size: 1.125rem;
+      font-family: 'Helvetica Regular';
+    }
+    &__price-range-block {
+      h3 {
+        color: #8194ab;
+        font-size: 1.125rem;
+        font-family: 'Helvetica Regular';
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+  h4 {
+    margin: 0 0 40px 0;
+    color: #59708F;
+    font-size: 1.5rem;
+    font-family: 'Helvetica Medium';
+  }
+}
+
+.catalog-section-breadcrumbs {
+  top: 0;
+  left: 0;
+  z-index: 100;
+  position: relative;
+  padding: 77px 0 10px 7px;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      margin: 0;
+    }
+  }
+}
+
+.catalog-section__pagination {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  justify-content: flex-end;
+  ul {
+    padding: 0 17px 0 0;
+    list-style: none;
+    margin: 0;
+    li {
+      padding: 0 7px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: #8E8E8E;
+        font-family: 'Helvetica Thin';
+        font-size: 1.125rem;
+        z-index: 100;
+      }
+    }
+  }
+}
+
+.catalog-section__pagination ul li a.active {
+  color: #A7B5C5;
+  font-family: 'Helvetica Medium';
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width:992px) {
+  .catalog-section__title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .catalog-section h4 {
+    font-size: 1.125rem;
+    margin: 0 0 23px 0;
+  }
+  .catalog-section__pagination ul li a {
+    font-size: .875rem;
+  }
+  .catalog-section__pagination a.active {
+    font-size: 1rem;
+  }
+  .catalog-section-breadcrumbs {
+    padding: 15px 0 10px 7px;
+  }
+  .catalog-section__title h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-left: 0;
+  }
+  .catalog-section__sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .filter-form-style p {
+    font-size: .875rem;
+  }
+  .catalog-section__sidebar__length-range-block__count label {
+    font-size: .875rem;
+  }
+  .catalog-section__sidebar__length-range-block__count span {
+    font-size: .875rem;
+  }
+}
+
+.price-range-margin-style h2 {
+  margin: 0;
+}
+
+.tab-style-1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  .tab-btn {
+    border: 1px solid #D3D3D3;
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+      color: #59708F;
+      font-size: 1rem;
+      font-family: 'Helvetica Medium';
+      padding: 11px 59px 11px 59px;
+      text-decoration: none;
+    }
+  }
+}
+
+.catalog-content {
+  display: flex;
+  align-items: center;
+}

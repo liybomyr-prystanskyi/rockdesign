@@ -1,0 +1,128 @@
+.partners__main__content__slider {
+  width: 100%;
+  height: auto;
+  position: relative;
+  transition: all .3s ease-in-out;
+  &__item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 400;
+    padding: 0 4px;
+    &__content {
+      width: 100%;
+      height: auto;
+      position: relative;
+      border: 1px solid rgba(211,211,211,.6);
+      min-height: 200px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      transition: all .3s ease-in-out;
+      img {
+        width: 60%;
+        object-fit: contain;
+        object-position: center;
+        height: 80px;
+        transition: all .3s ease-in-out;
+        opacity: .5;
+      }
+    }
+  }
+}
+
+.partners .slick-dots {
+  position: absolute;
+  bottom: -30%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  li {
+    position: relative;
+    display: inline-block;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 15px;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    outline: 0;
+  }
+  button {
+    background-color: #fff;
+    color: #fff !important;
+    border: 1px solid #a7b5c5;
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    font-size: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 0;
+  }
+}
+
+.partners .slick-dots .slick-active button {
+  border: 1px solid #59708f;
+  background-color: #a7b5c5;
+  outline: 0;
+  padding: 0;
+}
+
+.partners__main__content__slider .slick-list .slick-slide:hover {
+  transform: scale(1.150);
+  padding: 0 24px;
+  transition: all .3s ease-in-out;
+  z-index: 900;
+}
+.partners__main__content__slider .slick-list .slick-slide:hover .partners__main__content__slider__item__content {
+  border: 1px solid rgba(211,211,211,1);
+}
+
+.partners__main__content__slider .slick-list .slick-slide:hover  {
+  .partners__main__content__slider__item__content img {
+    opacity: 1;
+  }
+}
+
+.partners__main__content__slider .slick-list .slick-slide {
+  transition: all .3s ease-in-out;
+  z-index: 800;
+  padding: 0px;
+}
+
+.partners__main__content__slider .slisk-slide .slick-active {
+  padding: 30px 0 10px 0;
+}
+
+.partners__main__content__slider .slick-track {
+  padding: 15px 0;
+}
+
+.partners__main__content__slider a {
+  outline: none;
+}
+
+
+@media screen and (max-width:480px) {
+  .partners .slick-dots li {
+    margin: 0 5px;
+  }
+}
+
+ @media screen and (max-width:992px) {
+  .partners .slick-dots {
+    bottom: -10%;
+  }
+ }
+
+
+

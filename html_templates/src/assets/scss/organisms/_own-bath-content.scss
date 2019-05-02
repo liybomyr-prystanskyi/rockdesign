@@ -1,0 +1,165 @@
+.own-bath__main__image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #d3d3d3;
+    object-fit: cover;
+    object-position: right;
+  }
+}
+
+.own-bath__main__info {
+  margin: 35px 0 0 0;
+  h2 {
+    text-align: left;
+  }
+  h3 {
+    font-family: 'Helvetica Medium';
+    font-size: 1.5rem;
+    color: #A7B5C5;
+    padding: 0;
+    margin: 0 15px 30px 60px;
+  }
+  ul {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    z-index: 50;
+    list-style: none;
+    padding: 0 15px 0 85px;
+    li {
+      margin-bottom: 35px;
+      font-size: .875rem;
+      color: #8E8E8E;
+      font-family: 'Helvetica Light';
+      max-width: 530px;
+      &:before {
+        content: url(../img/list-style.png);
+        position: absolute;
+        width: auto;
+        height: auto;
+        margin-left: -1.8em;
+        margin-top: 1px;
+      }
+      &:last-child {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  
+  .default-btn {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    border: 1px solid #a7b5c5;
+    border-radius: 30px;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    background-color: #59708F;
+    max-width: 250px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    float: right;
+    right: 5%;
+    bottom: 5%;
+    z-index: 20;
+    a {
+      text-decoration: none;
+      font-size: 1.25rem;
+      color: #fff;
+      outline: 0;
+      font-family: 'Helvetica Medium';
+      background-color: transparent;
+      transition: all .3s ease-in-out;
+    }
+  }
+}
+
+@media screen and (min-width:991px) and (max-width:1200px) {
+  .own-bath__main__image img {
+    height: 400px;
+  }
+  .own-bath__main__info {
+    margin: 10px 0 0 0;
+  }
+  .title-h2 {
+    padding: 0 0 10px 0;
+  }
+  .own-bath__main__info h3 {
+    margin: 0 0 10px 15px;
+  }
+  .own-bath__main__info ul li {
+    margin-bottom: 10px;
+  }
+  .own-bath__main__info .default-btn {
+    max-width: 250px;
+    min-height: 40px;
+    a {
+      font-size: .875rem;
+    }
+  }
+}
+
+@media screen and (max-width:991px) {
+  .own-bath__main__info ul {
+    padding: 0 50px;
+  }
+  .own-bath__main__info h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+  .own-bath__main__info h2 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 1.2rem;
+  }
+  .own-bath__main__image img {
+    border-right: none;
+    border-bottom: 1px solid #d3d3d3;
+    height: auto;
+    object-fit: contain;
+  }
+  .own-bath__main__info .default-btn {
+    min-height: 45px;
+    a {
+      font-size: .875rem;
+    }
+  }
+  .own-bath:after {
+    content: '';
+    display: none;
+  }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1600px) {
+  .own-bath:after {
+    content: '';
+    position: absolute;
+    background-image: url(../img/new-design.png);
+    right: -45% !important;
+    bottom: 5% !important;
+    z-index: 10;
+    width: 100%;
+    height: 170px !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .own-bath__main__image img {
+    height: 100%;
+    border: none;
+  }
+}
+
+.own-bath__main__info .default-btn:hover a {
+  transform: scale(1.1);
+  transition: all .3s ease-in;
+}

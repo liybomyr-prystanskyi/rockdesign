@@ -1,0 +1,42 @@
+{{#mol-catalog-section-range-block}}
+<div class="catalog-section__sidebar__length-range-block">
+  <h3>Довжина:</h3>
+  <div class="d-flex align-items-center justify-content-start">
+    <div class="catalog-section__sidebar__length-range-block__count">
+      <label for="min-length">від</label>
+      <input type="text" min="0" max="9900" id="min-length" class="min-length-field">
+    </div>
+    <div class="catalog-section__sidebar__length-range-block__count">
+      <label for="max-length">до</label>
+      <input type="text" min="0" max="9900" id="max-length" class="max-length-field">
+      <span class="ml-1">см</span>
+    </div>
+  </div>
+</div>
+<div class="catalog-section__sidebar__length-range-block">
+  <h3>Ширина:</h3>
+  <div class="d-flex align-items-center justify-content-start">
+    <div class="catalog-section__sidebar__length-range-block__count">
+      <label for="min-width">від</label>
+      <input type="text" min="0" max="9900" id="min-width" class="min-length-field">
+    </div>
+    <div class="catalog-section__sidebar__length-range-block__count">
+      <label for="max-width">до</label>
+      <input type="text" min="0" max="9900" id="max-width" class="max-length-field">
+      <span class="ml-1">см</span>
+    </div>
+  </div>
+</div>
+<div class="price-range-block price-range-margin-style clearfix">
+  <h2>Ціна:</h2>
+  <div class="my-style-rynger">
+    <div class="range-slider">
+      <span id="rs-bullet" class="rs-label">0</span>
+      <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="45000">
+    </div>
+    <div class="box-minmax">
+      <span class="from-price">від 12000</span><span class="to-price">45000 грн</span>
+    </div>
+  </div>
+</div>
+{{/mol-catalog-section-range-block}}

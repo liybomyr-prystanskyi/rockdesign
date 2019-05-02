@@ -1,0 +1,36 @@
+.banner-main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 85px;
+  &__popup {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+.my-modal-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.banner-main.modal-btn {
+  position: absolute;
+  z-index: 555;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  outline: 0 !important;
+  border: none;
+  cursor: pointer;
+  bottom: 6%;
+  right: -5%;
+  background-color: #fff;
+}
+
+.banner-main.modal-btn img {
+  width: 35px;
+  height: 35px;
+}

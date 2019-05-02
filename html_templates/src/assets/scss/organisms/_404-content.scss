@@ -1,0 +1,123 @@
+.page-404 {
+	width: 100%;
+	height: auto;
+	position: relative;
+padding-top: 160px;
+padding-bottom: 50px;
+  &__main {
+		width: 100%;
+		height: auto;
+		position: relative;
+		width: 100%;
+		max-width: 812px;
+		background-color: #E3EAF2;
+		border: 1px solid #D3D3D3;
+		margin: 0 auto;
+    &__global-text {
+			width: 100%;
+			height: auto;
+			position: relative;
+			text-align: center;
+      h2 {
+				font-size: 6rem;
+				color: #59708F;
+				font-family: 'Helvetica Bold';
+				position: relative;
+				margin: -63px 0 0 0;
+			}
+      h3 {
+				color: #59708F;
+				font-size: 3.68rem;
+				font-family: 'Helvetica Bold';
+				margin:0 0 0 0;
+			}
+      p {
+				color: #A7B5C5;
+				font-size: 1.25rem;
+				max-width: 415px;
+				margin: 0 auto;
+				padding-top: 10px;
+				padding-bottom: 25px;
+			}
+    }
+
+	}
+	&__navigation {
+		width: 100%;
+		height: auto;
+		position: relative;
+		max-width: 812px;
+		margin: 0 auto;
+		padding-top: 25px;
+		h4 {
+			font-size: 1.5rem;
+			color: #59708F;
+			margin: 0 auto;
+			max-width: 635px;
+			font-family: 'Helvetica Bold';
+			text-align: center;
+			padding-bottom: 30px;
+		}
+		&__button {
+			width: 100%;
+			position: relative;
+			background-color: #fff;
+			border: 1px solid #A7B5C5;
+			border-radius: 40px;
+			max-width: 250px;
+			height: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			a {
+				color: #A7B5C5;
+				font-size:1.25rem;
+				font-family: 'Helvetica Medium';
+				padding: 14px 80px;
+				text-decoration: none;
+			
+				transition: all .3s ease-in-out;
+				&:hover {
+					transform: scale(1.1);
+					transition: all .3s ease-in-out;
+				}
+			}
+		}
+	}
+}
+
+.catalog a {
+	padding: 14px 40px;
+}
+ @media screen and (max-width:992px) {
+	.page-404 {
+		padding-top: 110px;
+		padding-bottom: 30px;
+	}
+	.page-404__main__global-text h2 {
+		font-size: 6.9rem;
+		margin: 0;
+	}
+	.page-404__main__global-text h3 {
+		font-size: 2.68rem;
+		margin: 0;
+	}
+	.page-404__main__global-text p {
+		font-size: 1rem;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.page-404__navigation h4 {
+		font-size: 1.2rem;
+		padding-bottom: 15px;
+	}
+	.buttons-404 {
+		display: flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+	}
+	.page-404__navigation__button {
+		margin: 0 auto 15px;
+	}
+ }

@@ -1,0 +1,79 @@
+.about-us-our-story {
+  width: 100%;
+  height: auto;
+  padding: 0 0 343px 0;
+  position: relative;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 54px 0 0 0;
+  }
+}
+
+.about-us-line {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  height: 1px;
+  background-color: #D3D3D3;
+  top: 47%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:992px) {
+  .about-us-our-story__main {
+    flex-direction: column;
+    padding: 20px 0 0 0;
+  }
+  .about-us-our-story__main__small-item {
+    bottom: 0;
+    text-align: center;
+    margin: 0;
+  }
+  .about-us-our-story__main__small-item__content {
+    left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us-our-story__big-item__content {
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-us-line {
+    display: none;
+  }
+  .about-us-our-story__big-item {
+    margin: 60px 0;
+  }
+  .about-us-our-story {
+    padding: 0 0 25px 0;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1600px) {
+  .about-us-line {
+    top: 42%;
+  }
+}
+
+@media screen and (min-width:1250px) and (max-width:1599px) {
+  .about-us-line {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width:1249px) and (max-width:1350px) {
+  .about-us-line {
+    width: 70%;
+  }
+}

@@ -1,0 +1,70 @@
+body,
+html {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+@media screen and (max-width:992px) {
+  .main-breadcumbs {
+    padding-top: 20px !important;
+  }
+  ::-webkit-input-placeholder {
+    font-size: .875rem;
+  }
+  ::-moz-placeholder {
+    font-size: .875rem;
+  }
+  :-ms-input-placeholder {
+    font-size: .875rem;
+  }
+  :-moz-placeholder {
+    font-size: .875rem;
+  }
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.125rem;
+  font-family: 'Helvetica Thin';
+  color: #8E8E8E;
+}
+
+::-moz-placeholder {
+  font-size: 1.125rem;
+  color: #8E8E8E;
+  font-family: 'Helvetica Thin';
+}
+
+:-ms-input-placeholder {
+  font-size: 1.125rem;
+  font-family: 'Helvetica Thin';
+  color: #8E8E8E;
+}
+
+:-moz-placeholder {
+  font-size: 1.125rem;
+  font-family: 'Helvetica Thin';
+  color: #8E8E8E;
+}
+@media screen and (min-width:1200px) {
+  .container {
+    max-width:1270px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1470px) {
+  .container {
+    max-width:1440px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:1670px) {
+  .container {
+    max-width: 1640px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.basket-content {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 85px;
+  padding-top: 77px;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    &__title {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  }
+}
+
+.basket-content-position {
+  padding-top: 75px;
+}
+ @media screen and (max-width:992px) {
+  .basket-content-position {
+    padding-top: 30px;
+  }
+ }

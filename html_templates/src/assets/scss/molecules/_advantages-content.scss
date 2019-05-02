@@ -1,0 +1,285 @@
+.advantages__main__item {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height: 332px;
+  border: 1px solid #d3d3d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 40px;
+  &__hover-text-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #A7B5C5;
+    border: 1px solid #8E8E8E;
+    color: #fff;
+    text-align: center;
+    display: none;
+    transition: all .3s ease-in-out;
+  }
+  &__hover-image-content {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 332px;
+    transition: all .3s ease-in-out;
+    display: none;
+  }
+  &__button {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    max-width: 309px;
+    background-color: #A7B5C5;
+    border: 1px solid #8E8E8E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 7%;
+    margin: 0 auto;
+    a {
+      font-family: 'Helvetica Medium';
+      font-size: 1.5rem;
+      color: #fff;
+      padding: 16px 50px;
+      text-decoration: none;
+    }
+  }
+}
+
+.advantages-main-block:nth-child(4) .advantages__main__item {
+  margin-bottom: 0;
+}
+
+.advantages-main-block:nth-child(5) .advantages__main__item {
+  margin-bottom: 0;
+}
+
+.advantages-main-block:nth-child(6) .advantages__main__item {
+  margin-bottom: 0;
+}
+
+.advantages__main__item:hover .advantages__main__item__hover-text-content {
+  display: block;
+  transition: all .3s ease-in-out;
+  height: auto;
+  min-height: 310px;
+  margin: 10px;
+  cursor: pointer;
+  h2 {
+    font-family: 'Helvetica Medium';
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+    padding: 50px 0 45px 0;
+    text-align: center;
+  }
+  p {
+    font-family: 'Helvetica Light';
+    font-size: .875rem;
+    color: #fff;
+    padding: 0 30px 30px 30px;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.advantages__main__item:hover .advantages__main__item__hover-image-content {
+  display: block;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height: 310px;
+  max-height: 310px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  h2 {
+    font-family: 'Helvetica Medium';
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0;
+    padding: 50px 0 45px 0;
+    text-align: center;
+  }
+  p {
+    font-family: 'Helvetica Light';
+    font-size: .875rem;
+    color: #fff; 
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.advantages__main__item:hover {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.advantages__main__item:hover .advantages__main__item__button {
+  display: none;
+}
+
+.item-white-bg .advantages__main__item__button {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 309px;
+  background-color: #fff;
+  border: 1px solid #8e8e8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: all .3s ease-in-out;
+  a {
+    color: #8E8E8E;
+  }
+}
+
+.advantages-main-block {
+  padding: 0 8px;
+}
+
+.hover-main-content {
+  display: contents;
+  flex-direction: column;
+  align-items: center;
+  padding: 38px;
+  height: 100%;
+}
+
+.widget {
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+}
+
+.advantages__main__item:hover .widget {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  background-size: cover;
+  flex-direction: column;
+  padding: 30px;
+  height: 100%;
+  z-index: -1;
+}
+
+.widget {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.advantages__main__item__hover-image-content {
+  position: relative;
+}
+.for-text-block-hover {
+  padding: 0 20px 20px 20px;
+}
+@media screen and (min-width:992px) and (max-width:1201px) {
+  .advantages__main__item__button a {
+    font-size: 1.2rem;
+    padding: 10px 45px;
+  }
+  .advantages__main__item__button {
+    max-width: 260px !important;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .for-text-block-hover {
+    padding:0;
+  }
+  .item-white-bg .advantages__main__item__button {
+    max-width: 250px;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-text-content h2 {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-text-content p {
+    font-size: .875rem;
+    padding: 0 10px;
+    line-height: 1rem;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-image-content h2 {
+    padding: 10px 0;
+    font-size: 1rem;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-image-content p {
+    font-size: .875rem;
+    padding: 0 10px;
+    line-height: 1rem;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-text-content {
+    min-height: 240px;
+  }
+  .advantages__main__item {
+    min-height: 250px;
+  }
+  .advantages__main__item__button a {
+    font-size: 1rem;
+    padding: 10px 55px;
+  }
+  .advantages__main__item__button {
+    max-width: 250px;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-image-content {
+    min-height: 220px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .advantages-main-block:nth-child(4) .advantages__main__item {
+    margin-bottom: 40px;
+  }
+  .advantages-main-block:nth-child(5) .advantages__main__item {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:993px) and (max-width:1670px) {
+  .advantages__main__item:hover .advantages__main__item__hover-text-content h2 {
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+  .advantages__main__item:hover .advantages__main__item__hover-image-content h2 {
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+}
+
+.item-white-bg {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+.advantages__main__item:hover .widget:before {
+  content: '';
+  background-color: rgba(0,0,0,.3);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

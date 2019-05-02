@@ -1,0 +1,37 @@
+.contact-us {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 85px;
+	margin-bottom: 50px;
+	&__main {
+		width: 100%;
+		height: auto;
+		position: relative;
+		&__content {
+			padding-top: 21px;
+			width: 100%;
+			height: auto;
+			position: relative;
+		}
+	}
+}
+
+.contact-us-title-padding {
+	padding-left: 30px;
+	position: relative;
+	top:-23px;
+}
+
+@media screen and (max-width:992px) {
+	.contact-us {
+		margin-bottom: 25px;
+		margin-top: 85px;
+	}
+	.contact-us-title-padding {
+		padding: 0;
+	}
+	.contact-us__main {
+		padding-top: 30px;
+	}
+}

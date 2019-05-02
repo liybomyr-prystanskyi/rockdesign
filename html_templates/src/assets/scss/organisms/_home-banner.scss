@@ -1,0 +1,188 @@
+.home-banner {
+  width: 100%;
+  height: calc(100vh - 85px);
+  position: relative;
+  margin-top: 85px;
+  margin-bottom: 30px;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    &__item {
+      width: 100%;
+      height: calc(100vh - 85px);
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      &__info {
+        width: 100%;
+        height: calc(100vh - 85px);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+.home-banner .slick-dots {
+  position: absolute;
+  bottom: 50%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.home-banner .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 15px !important;
+  height: 15px !important;
+  margin: 0 15px;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+}
+
+.home-banner .slick-dots li button {
+  background-color: #fff;
+  color: #fff !important;
+  border: 1px solid #a7b5c5;
+  border-radius: 50%;
+  width: 15px !important;
+  height: 15px !important;
+  font-size: 0;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.home-banner .slick-dots .slick-active button {
+  border: 1px solid #59708f;
+  background-color: #a7b5c5;
+  outline: 0;
+}
+
+.home-banner .modal-btn {
+  position: absolute;
+  z-index: 555;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  outline: 0 !important;
+  border: none;
+  cursor: pointer;
+  bottom: 125px;
+  right: 0%;
+  background-color: #fff;
+}
+
+@media screen and (max-width:992px) {
+  
+  .home-banner .modal-btn {
+    position: absolute;
+    z-index: 555;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    outline: 0 !important;
+    border: none;
+    cursor: pointer;
+    bottom: 120px;
+    right: 10%;
+    background-color: #fff;
+  }
+  .home-banner__main__item__info {
+    margin: 0;
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1400px) {
+  .home-banner-slider {
+    height: 89vh;
+  }
+  .default-banner-info {
+    h2 {
+      font-size: 4.625rem;
+    }
+    p {
+      font-size: 1.125rem;
+    }
+  }
+  .home-banner .slick-dots {
+    bottom: 40%;
+  }
+  .home-banner__main__item__info {
+    margin: 0 0 0 0;
+    height: 75vh;
+  }
+  .home-banner__main__item {
+    height: 91vh;
+  }
+  .home-banner .modal-btn {
+    position: absolute;
+    z-index: 555;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    outline: 0 !important;
+    border: none;
+    cursor: pointer;
+    bottom: 20px;
+    right: 0;
+    background-color: #fff;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .home-banner .slick-dots {
+    bottom: 40%;
+  }
+  .default-banner-info p {
+    font-size: .875rem;
+    padding: 5px;
+    line-height: 1.2rem;
+    max-width: 500px;
+  }
+  .home-banner .modal-btn {
+    bottom: 30px;
+    width: 75px;
+    height: 75px;
+  }
+  .home-banner-slider {
+    height: calc(100vh - 85px);
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1920px) {
+  .home-banner .modal-btn {
+    right: 0%;
+  }
+}
+
+@media screen and (max-height:900px) {
+  .home-banner .modal-btn {
+    bottom: 20px;
+  }
+  .home-banner .slick-dots {
+    bottom: 26%;
+  }
+}
+@media screen and (min-width:1400px) and (max-width:1920px) {
+  .home-banner .slick-dots {
+    bottom: 32%;
+  }
+}

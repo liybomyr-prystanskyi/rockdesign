@@ -1,0 +1,21 @@
+{{#mol-anagraph-content}}
+  {{#anagraphs}}
+    <div class="row d-flex justify-content-between {{reverse-block}} pb-5">
+      <div class="col-12 col-lg-6">
+        <div class="characteristic-block__main__anagraph__image">
+          <img src="{{{img}}}" alt="anagraph">
+        </div>
+      </div>
+      <div class="col-12 col-lg-5 d-flex justify-content-center align-items-start flex-column ">
+        <div class="characteristic-block__main__anagraph__info">
+          {{#title}}
+            <h2>{{{title}}}</h2>
+          {{/title}}
+          {{#text}}
+            <p>{{{text}}}</p>
+          {{/text}}
+        </div>
+      </div>
+    </div>
+  {{/anagraphs}}
+{{/mol-anagraph-content}}

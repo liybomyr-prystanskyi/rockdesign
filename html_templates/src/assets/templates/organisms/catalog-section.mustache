@@ -1,0 +1,121 @@
+{{#org-catalog-section}}
+<section class="catalog-section">
+  <div class="container">
+    <div class="row catalog-content">
+      <div class="col-12 col-lg-4">
+        <div class="banner-main__breadcrumbs {{catalog-section-breadcrumbs}}">
+          <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Ванни</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8">
+        <div class="catalog-section__title">
+          <h2>Ванни з литого мармуру</h2>
+        </div>
+      </div>
+    </div>
+    <div class="d-lg-none">
+      <div class="main-tabs">
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-12 text-center tab-style-1">
+              <div class="tab-btn b-question hide" data-target="#q1">
+                <a href="#">
+                  Підбір параметрів
+                </a>
+              </div>
+            </div>
+            <div class="col-12">
+              <div id="q1" class="b-answer">
+                <form class="filter-form-style" action="#">
+                  <div>
+                    <h3>Тип ванни:</h3>
+                    <div class="md-radio">
+                      <input type="radio" name="type-bath" id="id20">
+                      <label for="id20">Вільностоячі (14)</label>
+                      <input type="radio" name="type-bath" id="id21">
+                      <label for="id21">Кутові (12)</label>
+                      <input type="radio" name="type-bath" id="id22">
+                      <label for="id22">Пристінні (24)</label>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>Форма ванни:</h3>
+                    <div class="md-radio">
+                      <input type="radio" name="type-form" id="id24">
+                      <label for="id24">Асиметрична</label>
+                      <input type="radio" name="type-form" id="id25">
+                      <label for="id25">Овальна</label>
+                      <input type="radio" name="type-form" id="id26">
+                      <label for="id26">Прямокутна</label>
+                    </div>
+                  </div>
+                  <div class="catalog-section__sidebar__length-range-block">
+                    <h3>Довжина:</h3>
+                    <div class="d-flex align-items-center justify-content-start">
+                      <div class="catalog-section__sidebar__length-range-block__count">
+                        <label for="min-length-mobile">від</label>
+                        <input type="text" min="0" max="9900" id="min-length-mobile" class="min-length-field">
+                      </div>
+
+                      <div class="catalog-section__sidebar__length-range-block__count">
+                        <label for="max-length-mobile">до</label>
+                        <input type="text" min="0" max="9900" id="max-length-mobile" class="max-length-field">
+                        <span class="ml-1">см</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="catalog-section__sidebar__length-range-block">
+                    <h3>Ширина:</h3>
+                    <div class="d-flex align-items-center justify-content-start">
+                      <div class="catalog-section__sidebar__length-range-block__count">
+                        <label for="min-width-mobile">від</label>
+                        <input type="text" min="0" max="9900" id="min-width-mobile" class="min-length-field">
+                      </div>
+
+                      <div class="catalog-section__sidebar__length-range-block__count">
+                        <label for="max-width-mobile">до</label>
+                        <input type="text" min="0" max="9900" id="max-width-mobile" class="max-length-field">
+                        <span class="ml-1">см</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="price-range-block price-range-margin-style clearfix">
+                    <h2>Ціна:</h2>
+                    <div class="my-style-rynger">
+                      <div class="range-slider">
+                        <span id="rs-bullet-mobile" class="rs-label">0</span>
+                        <input id="rs-range-line-mobile" class="rs-range" type="range" value="0" min="0" max="45000">
+                      </div>
+                      <div class="box-minmax">
+                        <span class="from-price">від 12000</span><span class="to-price">45000 грн</span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0">
+      <div class="col-12 col-lg-3 catalog-section__sidebar">
+        <div class="d-none d-lg-block">
+          <h4>Підбір параметрів</h4>
+          {{> ../molecules/catalog-section-forms}}
+          {{> ../molecules/catalog-section-range-block}}
+        </div>
+      </div>
+      <div class="col-12 col-lg-9">
+        <div class="row m-0">
+          {{> ../molecules/producte-items}}
+        </div>
+      </div>
+      {{> ../molecules/category-pagination}}
+    </div>
+  </div>
+</section>
+{{/org-catalog-section}}

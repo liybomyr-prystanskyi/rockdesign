@@ -1,0 +1,25 @@
+{{#mol-subfooter}}
+<div class="row align-items-center subfooter-position">
+  <div class="col-12 col-lg-4">
+    {{#data}}
+    <div class="my-footer__data">
+      <p>{{{data}}}</p>
+    </div>
+    {{/data}}
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="my-footer__foot-logo">
+      <a href="#">
+        <img src="{{{foot-logo}}}" alt="{{{alt}}}">
+      </a>
+    </div>
+  </div>
+  <div class="col-12 col-lg-4">
+    <div class="my-footer__location">
+      {{#location-text}}
+      <p>{{{description}}}</p>
+      {{/location-text}}
+    </div>
+  </div>
+</div>
+{{/mol-subfooter}}

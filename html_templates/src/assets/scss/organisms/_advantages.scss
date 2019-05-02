@@ -1,0 +1,26 @@
+.advantages {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  transition: all .3s ease-in-out;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.main-block-padding {
+  padding-top: 45px;
+} 
+@media screen and (max-width:992px) {
+  .advantages {
+    padding-top: 30px; 
+  }
+  .main-block-padding {
+    padding-top: 25px;
+  }
+}

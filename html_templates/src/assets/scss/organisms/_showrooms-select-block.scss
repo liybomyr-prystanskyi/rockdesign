@@ -1,0 +1,39 @@
+.showrooms-select {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 85px;
+	padding-top: 77px;
+
+	&__main {
+		width: 100%;
+		height: auto;
+		position: relative;
+		border-bottom: 1px solid #D3D3D3;
+		padding-bottom: 55px;
+	}
+}
+
+.showroom-title {
+	padding-bottom: 0 !important;
+}
+.showrooms-content {
+	align-items: center;
+}
+@media screen and (max-width:992px) {
+	.showrooms-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+	.showrooms-select__main__my-select {
+		justify-content: center;
+		padding-top: 20px;
+	}
+	.showroom-title {
+		padding-top: 20px;
+	}
+}

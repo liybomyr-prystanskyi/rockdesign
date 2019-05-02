@@ -1,0 +1,113 @@
+{{#mol-basket-content-form}}
+<div class="basket-content__main__form">
+	<form action="#">
+		{{#title}}
+		<h3>{{{title}}}</h3>
+		{{/title}}
+		<div class="basket-content__main__form__client-info">
+			<input type="text" id="basket-name" placeholder="Ім'я та Прізвище">
+			<input type="text" id="basket-city" placeholder="Місто">
+			<input type="tel" id="basket-phone" placeholder="Телефон">
+			<input type="email" id="basket-email" placeholder="Емейл">
+		</div>
+		<div class="basket-content__main__form__delivery">
+			{{#subtitle-delivery}}
+			<div class="basket-content__main__form__delivery__text">
+				<h2>{{{subtitle-delivery}}}</h2>
+			</div>
+			{{/subtitle-delivery}}
+			<div class="basket-content__main__form__delivery__inputs">
+				{{#label-1}}
+				<div class="delivery-input-item">
+					<input type="radio" name="{{{delivery-name}}}" id="{{{label-1-id}}}">
+					<label for="{{{label-1-id}}}">{{{label-1}}}</label>
+				</div>
+				{{/label-1}}
+				{{#label-2}}
+				<div class="delivery-input-item">
+					<input type="radio" name="{{{delivery-name}}}" id="{{{label-2-id}}}">
+					<label for="{{{label-2-id}}}">{{{label-2}}}</label>
+				</div>
+				{{/label-2}}
+				{{#label-3}}
+				<div class="delivery-input-item">
+					<input type="radio" name="{{{delivery-name}}}" id="{{{label-3-id}}}">
+					<label for="{{{label-3-id}}}">{{{label-3}}}</label>
+				</div>
+				{{/label-3}}
+				{{#label-4}}
+				<div class="delivery-input-item">
+					<input type="radio" name="{{{delivery-name}}}" id="{{{label-4-id}}}">
+					<label for="{{{label-4-id}}}">{{{label-4}}}</label>
+				</div>
+				{{/label-4}}
+			</div>
+		</div>
+		{{#form-description}}
+		<div class="basket-content__main__form__description">
+			<p>{{{form-description}}}</p>
+		</div>
+		{{/form-description}}
+		<div class="basket-content__main__form__address-block">
+			{{#address-subtitle}}
+			<div class="basket-content__main__form__address-block__text">
+				<h2>{{{address-subtitle}}}</h2>
+			</div>
+			{{/address-subtitle}}
+			<div class="basket-content__main__form__address-block__inputs">
+				<input class="address-1" type="text" placeholder="Вулиця">
+				<input class="address-2" type="text" placeholder="Будинок">
+				<input class="address-3" type="text" placeholder="Квартира">
+				<input class="address-4" type="text" placeholder="Код домофону">
+			</div>
+		</div>
+		<div class="basket-content__main__form__payment-method">
+			{{#payment-subtitle}}
+			<div class="basket-content__main__form__payment-method__text">
+				<h2>{{{payment-subtitle}}}</h2>
+			</div>
+			{{/payment-subtitle}}
+			<div class="basket-content__main__form__payment-method__inputs">
+				{{#payment-method-1}}
+				<div class="payment-input-item">
+					<input type="radio" name="{{{payment-label-name}}}" id="{{{payment-id-1}}}">
+					<label for="{{{payment-id-1}}}">{{{payment-method-1}}}</label>
+				</div>
+				{{/payment-method-1}}
+				{{#payment-method-2}}
+				<div class="payment-input-item">
+					<input type="radio" name="{{{payment-label-name}}}" id="{{{payment-id-2}}}">
+					<label for="{{{payment-id-2}}}">{{{payment-method-2}}}</label>
+				</div>
+				{{/payment-method-2}}
+				{{#payment-method-3}}
+				<div class="payment-input-item">
+					<input type="radio" name="{{{payment-label-name}}}" id="{{{payment-id-3}}}">
+					<label for="{{{payment-id-3}}}">{{{payment-method-3}}}</label>
+				</div>
+				{{/payment-method-3}}
+				{{#payment-method-4}}
+				<div class="payment-input-item">
+					<input type="radio" name="{{{payment-label-name}}}" id="{{{payment-id-4}}}">
+					<label for="{{{payment-id-4}}}">{{{payment-method-4}}}</label>
+				</div>
+				{{/payment-method-4}}
+			</div>
+		</div>
+		<div class="basket-textarea">
+			<textarea name="basket-textarea" id="basket-textarea" placeholder="Коментар" style="resize: none;"></textarea>
+		</div>
+		<div class="basket-content__main__form__promo-code">
+			{{#promo-code-description}}
+			<div class="basket-content__main__form__promo-code__text">
+				<h2>{{{promo-code-description}}}</h2>
+				<input type="text" placeholder="Промо код">
+			</div>
+			{{/promo-code-description}}
+			<div class="basket-content__main__form__promo-code__submit">
+				<input type="submit" value="Замовити" id="basket-submit">
+			</div>
+		</div>
+	</form>
+</div>
+{{/mol-basket-content-form}}

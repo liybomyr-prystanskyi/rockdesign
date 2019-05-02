@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 55px;
+  .my-footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 1px solid #D3D3D3;
+    padding: 45px 45px 25px 45px;
+  }
+}
+@media screen and (max-width:992px) {
+  footer {
+    padding-top: 25px;
+  }
+  footer .my-footer {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,21 @@
+{{#mol-advantages-content}}
+    {{#text-hover}}
+      <div class="col-12 col-md-6 col-lg-4 advantages-main-block">
+        <div class="advantages__main__item" style="background-image:url({{{bg-image}}})">
+          <div class="advantages__main__item__button">
+            <a href="#">{{{btn}}}</a>
+          </div>
+          {{#hover-title}}
+            <div class="advantages__main__item__hover-text-content">
+              <a href="#">
+                <div class="d-flex align-items-center justify-content-center flex-column  position-absolute h-100">
+                  <h2>{{{hover-title}}}</h2>
+                  <p>{{{hover-description}}}</p>
+                </div>
+              </a>
+            </div>
+          {{/hover-title}}
+        </div>
+      </div>
+    {{/text-hover}}
+{{/mol-advantages-content}}

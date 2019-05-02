@@ -1,0 +1,64 @@
+<div class="showrooms-select__main__my-select">
+    <select name="slct" id="home-select" class="showrooms-select__main__my-select__global-value">
+        <option value="1">Київ</option>
+        <option value="2">Львів</option>
+        <option value="3">Тернопіль</option>
+        <option value="3">Рівне</option>
+        <option value="3">Полтава</option>
+    </select>
+</div>
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg review-modal-lg">
+        <div class="modal-content reviews-modal-content">
+
+            <div class="modal-header reviews-modal-header">
+                <h4 class="modal-title">Залишити відгук</h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <img src="assets/img/close.svg" alt="close">
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="reviews-form">
+                    <form action="#">
+                        <div class="reviews-contact-form-main">
+                            <div class="d-flex global-reviews-form-block">
+                                <div class="control-group file-upload" id="file-upload1">
+                                    <div class="image-box text-center">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                                        <p>Ваше фото</p>
+                                        <a href="#">Завантажити</a>
+                                        <img src="" alt="">
+                                    </div>
+                                    <div class="controls"><input type="file" name="contact_image_1" /></div>
+                                </div>
+                                <div class="reviews-iputs">
+                                    <input type="text" id="review1" placeholder="Ваше імя">
+                                    <input type="email" id="review2" placeholder="Емейл">
+                                    <input class="review-input-plus" type="text" id="review3" placeholder="Плюси">
+                                    <input class="review-input-minus" type="text" id="review4" placeholder="Мінуси">
+                                </div>
+                            </div>
+                            <div class="reviews-rating">
+                                <input type="radio" id="review-star-5" name="rating" value="5"><label for="review-star-5"></label>
+                                <input type="radio" id="review-star-4" name="rating" value="4"><label for="review-star-4"></label>
+                                <input type="radio" id="review-star-3" name="rating" value="3"><label for="review-star-3"></label>
+                                <input type="radio" id="review-star-2" name="rating" value="2"><label for="review-star-2"></label>
+                                <input type="radio" id="review-star-1" name="rating" value="1"><label for="review-star-1"></label>
+                            </div>
+                            <div class="reviews-textarea-block">
+                                <textarea name="reviews-textarea" id="reviews-textarea" placeholder="Напишіть відгук" style="resize:none;"></textarea>
+                            </div>
+                            <div class="reviews-load-image">
+                                <label for="myfile" class="reviews-load-image-chous">Завантажте фото до відгуку</label>
+                                <input type="file" class="reviews-load-image-my" id="myfile" name="myfile" multiple="multiple" />
+                            </div>
+                            <div class="reviews-submit">
+                                <button type="submit">Додати відгук</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+{{#mol-own-bath-content}}
+<div class="col-12 col-lg-5">
+	{{#img}}
+	<div class="own-bath__main__image">
+		<img src="{{{img}}}" alt="{{{alt}}}">
+	</div>
+	{{/img}}
+</div>
+<div class="col-12 col-lg-7">
+	<div class="own-bath__main__info">
+		{{> ../molecules/title-h2}}
+		{{#subtitle}}
+		<h3>{{{subtitle}}}</h3>
+		{{/subtitle}}
+		<ul>
+			{{#points}}
+			<li>{{{link}}}</li>
+			{{/points}}
+		</ul>
+		{{#btn}}
+		<div class="default-btn">
+			<a href="#">{{{btn}}}</a>
+		</div>
+		{{/btn}}
+	</div>
+</div>
+{{/mol-own-bath-content}}

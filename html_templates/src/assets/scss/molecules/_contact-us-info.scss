@@ -1,0 +1,272 @@
+.contact-us__main__content__info {
+  width: 100%;
+  height: auto;
+  position: relative;
+  h3 {
+    font-family: 'Helvetica Medium';
+    color: #59708F;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+  }
+  &__number {
+    padding-top: 32px;
+    display: flex;
+    padding-bottom: 5px;
+    align-items: center;
+    h4 {
+      font-family: 'Helvetica Medium';
+      color: #59708F;
+      font-size: 1.125rem;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      font-size: 1rem;
+      color: #59708F;
+      margin: 0;
+      font-family: 'Helvetica Thin';
+      text-decoration: underline;
+      padding-left: 35px;
+    }
+  }
+  &__others-numbers {
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 1rem;
+      color: #59708F;
+      padding: 0;
+      margin: 0;
+      font-family: 'Helvetica Thin';
+      text-decoration: underline;
+      padding-bottom: 5px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+  &__mail {
+    align-items: center;
+    padding-bottom: 30px;
+    display: flex;
+    h4 {
+      font-family: 'Helvetica Medium';
+      color: #59708F;
+      font-size: 1.125rem;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      font-size: 1rem;
+      color: #59708F;
+      padding: 0;
+      margin: 0;
+      font-family: 'Helvetica Thin';
+      text-decoration: underline;
+      padding-left: 65px;
+    }
+  }
+  &__location {
+    padding-bottom: 30px;
+    display: flex;
+    h4 {
+      font-family: 'Helvetica Medium';
+      color: #59708F;
+      font-size: 1.125rem;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      font-size: 1rem;
+      color: #8E8E8E;
+      margin: 0;
+      font-family: 'Helvetica Thin';
+      padding-left: 55px;
+      line-height: 1.1rem;
+    }
+  }
+  &__calendar-job {
+    align-items: center;
+    padding-bottom: 30px;
+    display: flex;
+    h4 {
+      font-family: 'Helvetica Medium';
+      color: #59708F;
+      font-size: 1.125rem;
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      font-size: 1rem;
+      color: #8E8E8E;
+      margin: 0;
+      font-family: 'Helvetica Thin';
+      padding-left: 18px;
+    }
+  }
+  &__social {
+    align-items: center;
+    display: flex;
+    h4 {
+      font-family: 'Helvetica Medium';
+      color: #59708F;
+      font-size: 1.125rem;
+      padding: 0;
+      margin: 0;
+    }
+    a {
+      padding-left: 15px;
+      text-decoration: none;
+      img {
+        position: relative;
+        width: auto;
+        height: auto;
+        padding-right: 15px;
+        &:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+  .contact-us__main__content__info h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-us__main__content__info__number {
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__number a {
+    padding-left: 0;
+    font-size: .875rem;
+  }
+  .contact-us__main__content__info__others-numbers {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__mail {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__mail a {
+    font-size: .875rem;
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__location {
+    flex-direction: column;
+  }
+  .contact-us__main__content__info__location p {
+    font-size: .875rem;
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__calendar-job {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__calendar-job p {
+    font-size: .875rem;
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__number h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__mail h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__location h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__calendar-job h4 {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .contact-us__main__content__info__number {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__number a {
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__others-numbers {
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__mail {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__mail a {
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__location {
+    flex-direction: column;
+  }
+  .contact-us__main__content__info__location p {
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__calendar-job {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-us__main__content__info__calendar-job p {
+    padding-left: 0;
+  }
+  .contact-us__main__content__info__number h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__mail h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__location h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__calendar-job h4 {
+    padding-bottom: 10px;
+  }
+  .contact-us__main__content__info__form__bg-block {
+    padding: 25px;
+  }
+}
+@media screen and (min-width:1199.9px) and (max-width:1470px) {
+  .contact-us__main__content__info__number a {
+    padding-left: 18px;
+  }
+  .contact-us__main__content__info__others-numbers {
+    padding-left: 0;
+    padding-right: 17px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .contact-us__main__content__info__mail a {
+    padding-left:45px;
+  }
+  .contact-us__main__content__info__location p {
+    padding-left: 38px;
+  }
+}
+ @media screen and (min-width:1469.9px) and (max-width:1670px) {
+  .contact-us__main__content__info__others-numbers {
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+  }
+  .contact-us__main__content__info__number a {
+    padding-left: 10px;
+  }
+  .contact-us__main__content__info__mail a {
+    padding-left:40px;
+  }
+  .contact-us__main__content__info__location p {
+    padding-left: 30px;
+  }
+ }

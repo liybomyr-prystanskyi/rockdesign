@@ -1,0 +1,37 @@
+{{#org-characteristic-block}}
+<section class="characteristic-block">
+  <div class="container">
+    <div class="characteristic-block__main">
+      <ul class="nav nav-tabs characteristic-block__main__my-nav-tabs" id="myTab" role="tablist">
+        <li class="characteristic-block__main__my-nav-tabs__item nav-item">
+          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+            aria-controls="profile" aria-selected="false">Опис</a>
+        </li>
+        <li class="characteristic-block__main__my-nav-tabs__item nav-item">
+          <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+            aria-selected="true">Характеристики</a>
+        </li>
+      </ul>
+      <div class="characteristic-block__main__subinfo">
+        <p>Наша компанія надає можливість Вам змінювати форми, розміри, обрізку,
+          кольори та інше. в своїх моделях під Ваш інтер'єр
+        </p>
+      </div>
+      <div class="tab-content" id="tab-content">
+        <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="characteristic-block__main__anagraph">
+            {{> ../molecules/anagraph-content}}
+          </div>
+        </div>
+        <div class="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
+          <div class="characteristic-block__main__table">
+            <div class="row m-0">
+              {{> ../molecules/characteristic-table}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{/org-characteristic-block}}

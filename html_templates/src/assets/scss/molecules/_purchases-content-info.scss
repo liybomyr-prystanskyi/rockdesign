@@ -1,0 +1,122 @@
+.purchases-content__main {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 812px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 240px;
+  padding-bottom: 350px;
+  &__title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(227, 234, 242, .8);
+    border: 1px solid #D3D3D3;
+    padding-bottom: 25px;
+    h2 {
+      font-size: 6.25rem;
+      color: #59708F;
+      font-family: 'Helvetica Medium';
+      margin: -68px 0 0 0;
+      padding: 0;
+    }
+    h3 {
+      font-size: 5rem;
+      color: #59708F;
+      font-family: 'Helvetica Light';
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #59708F;
+      font-family: 'Helvetica Light';
+      padding: 0;
+      margin: 0;
+    }
+  }
+  &__description {
+    padding-top: 28px;
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(227, 234, 242, .8);
+    border: 1px solid #D3D3D3;
+    p {
+      color: #59708F;
+      font-size: 1.125rem;
+      font-family: 'Helvetica Light';
+      padding: 0;
+      max-width: 365px;
+      margin: 0 auto;
+    }
+    &__button {
+      width: 100%;
+      max-width: 287px;
+      background-color: #fff;
+      border: 1px solid #A7B5C5;
+      margin: 0 auto -7px;
+      border-radius: 30px;
+      text-align: center;
+      min-height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all .3s ease-in-out;
+      top: 20px;
+      position: relative;
+      a {
+        transition: all .3s ease-in-out;
+        color: #A7B5C5;
+        font-size: 1.25rem;
+        font-family: 'Helvetica MEdium';
+        text-decoration: none;
+        padding: 13px 25px;
+        &:hover {
+          transition: all .3s ease-in-out;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+  .purchases-content__main__title h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .purchases-content__main__title h3 {
+    font-size: 1.5rem;
+    padding-top: 10px;
+  }
+  .purchases-content__main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .purchases-content__main__title p {
+    font-size: 1.2rem;
+  }
+  .purchases-content__main__description p {
+    font-size: .875rem;
+    padding: 0 10px
+  }
+  .purchases-content__main__description__button {
+    top: 0;
+    margin: 20px auto 20px;
+    max-width: 250px;
+  }
+  .purchases-content__main__description__button a {
+    font-size: 1rem;
+    padding: 17px 25px;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .purchases-content__main {
+    padding: 160px 0;
+  }
+}

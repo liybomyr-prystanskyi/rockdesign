@@ -1,0 +1,26 @@
+{{#org-our-goods}}
+<section class="top-sales {{our-goods-sales-block}} {{basket-single-margin}} {{reviews-pagination-style}}">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="top-sales__main">
+					{{> ../molecules/title-h2}}
+					<div class="top-sales__main__product">
+						<div class="row product-slider">
+							{{> ../molecules/producte-items}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> ../molecules/category-pagination}}
+		{{#read-more-btn}}
+		<div class="read-more-btn">
+			{{#btn}}
+			<a href="#">{{{btn}}}</a>
+			{{/btn}}
+		</div>
+		{{/read-more-btn}}
+	</div>
+</section>
+{{/org-our-goods}}

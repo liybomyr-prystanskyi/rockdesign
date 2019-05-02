@@ -1,0 +1,42 @@
+{{#mol-footer-contact-list}}
+<div class="col-12 col-lg-5  contact-list-main-block">
+  <div class="my-footer__contact-info">
+    <h2>{{{title}}}</h2>
+    <div>
+      <div class="d-flex justify-content-between">
+        {{#phone-description}}
+        <p>
+          {{{phone-description}}}
+        </p>
+        {{/phone-description}}
+        <a href="tel:+38067 444 67 22">{{{number-1}}}</a>
+      </div>
+      <div class="d-flex flex-column justify-content-end align-items-end">
+        <a href="tel:+38067 444 67 20">{{{number-2}}}</a>
+        <a href="tel:+38067 444 67 00">{{{number-3}}}</a>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p>{{{email-description}}}</p>
+        <a href="mailto:office@rock-design.eu">{{{mail}}}</a>
+      </div>
+    </div>
+    {{#social-description}}
+    <div class="d-flex  align-items-end flex-column social-link">
+      <a href="#" class="pr-0">
+        {{{social-description}}}
+      </a>
+
+      <div class="d-flex justify-content-end">
+        <a href="#">
+          <img src="{{{facebook}}}" alt="{{{alt-facebook}}}">
+        </a>
+        <a href="#">
+          <img src="{{{instagram}}}" alt="{{{alt-instagram}}}">
+        </a>
+
+      </div>
+    </div>
+    {{/social-description}}
+  </div>
+</div>
+{{/mol-footer-contact-list}}

@@ -1,0 +1,82 @@
+.characteristic-block {
+  &__main {
+    &__anagraph {
+      &__image {
+        border: 1px solid #707070;
+        img {
+          width: 100%;
+          height: auto;
+          position: relative;
+        }
+      }
+    }
+  }
+}
+
+.characteristic-block__main__anagraph__info {
+  h2 {
+    text-align: left;
+    margin: 0;
+    font-size: 1.875rem;
+    font-family: 'Helvetica Medium';
+    color: #59708F;
+    padding-bottom: 55px;
+    width: 100%;
+    position: relative;
+  }
+  p {
+    margin: 0;
+    font-size: .875rem;
+    font-family: 'Helvetica Light';
+    color: #8E8E8E;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2rem;
+    max-width: 620px;
+  }
+}
+
+.reverse-block {
+  display: flex;
+  flex-direction: row-reverse;
+  .characteristic-block__main__anagraph__info {
+    margin-left: 140px;
+  }
+}
+
+
+@media screen and (max-width:992px) {
+  .characteristic-block__main__anagraph {
+    padding-top: 46px;
+  }
+  .characteristic-block__main__anagraph__info__title {
+    padding-bottom: 15px;
+  }
+  .characteristic-block__main__anagraph__info {
+    padding-top: 20px;
+  }
+  .reverse-block .characteristic-block__main__anagraph__info {
+    margin-left: 0;
+  }
+  .characteristic-block__main__anagraph__info h2 {
+    font-size: 1.125rem;
+    padding-bottom: 25px;
+  }
+  .characteristic-block__main__anagraph__image img {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1600px) {
+  .characteristic-block__main__anagraph__info h2 {
+    padding-bottom: 20px;
+  }
+}
+ @media screen and (min-width:992px) and (max-width:1200px) {
+  .reverse-block .characteristic-block__main__anagraph__info {
+    margin-left: 0;
+  }
+ }

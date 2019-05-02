@@ -1,0 +1,15 @@
+{{#mol-catalog-section-forms}}
+  <form class="filter-form-style" action="#">
+    {{#my-form}}
+    <div class="form-block-items">
+      <h3>{{{subtitle}}}</h3>
+      {{#inputs}}
+        <div class="md-radio">
+          <input type="radio" name="{{{type}}}" id="{{{id}}}">
+          <label for="{{{id}}}">{{{label}}}</label>
+        </div>
+      {{/inputs}}
+    </div>
+    {{/my-form}}
+  </form>
+{{/mol-catalog-section-forms}}

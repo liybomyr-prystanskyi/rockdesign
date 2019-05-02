@@ -1,0 +1,21 @@
+{{#mol-category-pagination}}
+<div class="catalog-section__pagination">
+	<ul class="d-flex">
+		<li><a href="#">
+				<img src="assets/img/pagination-left-arrow.svg" alt="pagination-left">
+			</a>
+		</li>
+		{{#pagination-list}}
+		<li>
+			<a href="#" class="{{active}}">
+				<span>{{{li}}}</span>
+			</a>
+		</li>
+		{{/pagination-list}}
+		<li><a href="#">
+				<img src="assets/img/pagination-right-arrow.svg" alt="pagination-right">
+			</a>
+		</li>
+	</ul>
+</div>
+{{/mol-category-pagination}}

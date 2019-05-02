@@ -1,0 +1,83 @@
+.about-material__info {
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-bottom: 38px;
+
+  &:last-child {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: #A7B5C5;
+    font-family: 'Helvetica Medium';
+    margin: 0;
+    padding-bottom: 35px;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: #8E8E8E;
+    font-family: 'Helvetica Thin';
+    padding: 0;
+    position: relative;
+    margin: 0 0 30px 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+
+    li {
+      padding-bottom: 50px;
+      width: 100%;
+      max-width: 950px;
+      color: #8E8E8E;
+      font-size: 1.125rem;
+      font-family: 'Helvetica Thin';
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      &:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        background-color: #A7B5C5;
+        position: absolute;
+        border-radius: 50%;
+        left: 0;
+        margin-top: 4px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:992px) {
+  .about-material__info h3 {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+  }
+
+  .about-material__info p {
+    font-size: .875rem;
+  }
+
+  .about-material__info ul li {
+    font-size: .875rem;
+  }
+
+  .about-material__info ul li:before {
+    width: 10px;
+    height: 10px;
+  }
+
+  .about-material__info ul {
+    padding-left: 20px;
+  }
+}

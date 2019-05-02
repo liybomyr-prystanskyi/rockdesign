@@ -1,0 +1,1375 @@
+{
+	"org-header": {
+		"mol-header-nav": {
+			"header-logo": "assets/img/logo.png",
+			"alt": "logo",
+			"nav-menu": [
+				{
+					"li": "Ванни",
+					"href": "#Link"
+				},
+				{
+					"li": "Про нас",
+					"href": "#Link"
+				},
+				{
+					"li": "Доставка/Оплата",
+					"href": "#Link"
+				},
+				{
+					"li": "Гарантії",
+					"href": "#Link"
+				},
+				{
+					"li": "Відгуки",
+					"href": "#Link"
+				},
+				{
+					"li": "Showrooms",
+					"href": "#Link"
+				},
+				{
+					"li": "Контакти",
+					"href": "#Link"
+				}
+			],
+			"phone-image": "assets/img/header-phone.svg",
+			"phone-alt": "phone",
+			"number": "+38067 444 67 20"
+		}
+	},
+	"org-banner-main": true,
+	"org-characteristic-block": {
+		"mol-anagraph-content": {
+			"anagraphs": [
+				{
+					"img": "assets/img/anagraph-1.png",
+					"title": "Колекція",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"reverse-block": "reverse-block",
+					"img": "assets/img/anagraph-2.png",
+					"title": "Тип ванни",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"img": "assets/img/anagraph-3.png",
+					"title": "Матеріал",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"reverse-block": "reverse-block",
+					"img": "assets/img/anagraph-1.png",
+					"title": "Термостійкість",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				}
+			]
+		},
+		"mol-characteristic-table": [
+			{
+				"title": "Основні",
+				"item": [
+					{
+						"text-1": "Розмір:",
+						"text-2": "160х80см"
+					},
+					{
+						"text-1": "Колекція:",
+						"text-2": "Classic"
+					},
+					{
+						"text-1": "Матеріл:",
+						"text-2": "Литий мармур"
+					},
+					{
+						"text-1": "Колір:",
+						"text-2": "Білий (молочний)"
+					},
+					{
+						"text-1": "Комплектація:",
+						"text-2": "4 ніжки"
+					},
+					{
+						"text-1": "Обєм:",
+						"text-2": "350л"
+					},
+					{
+						"text-1": "Тип:",
+						"text-2": "Округлий"
+					},
+					{
+						"text-1": "Обєм:",
+						"text-2": "350л"
+					},
+					{
+						"text-1": "Тип:",
+						"text-2": "Округлий"
+					}
+				]
+			},
+			{
+				"title": "Додаткові",
+				"item": [
+					{
+						"text-1": "Тип установки:",
+						"text-2": "Підлоговий"
+					},
+					{
+						"text-1": "Підголівник:",
+						"text-2": "Ні"
+					},
+					{
+						"text-1": "Панель фронтальна:",
+						"text-2": "Докуповується окремо"
+					},
+					{
+						"text-1": "Панель бічна:",
+						"text-2": "Докуповується окремо"
+					},
+					{
+						"text-1": "Розташування переливу:",
+						"text-2": "По центру (можливе зміщення)"
+					},
+					{
+						"text-1": "Встановлення гідромасажу:",
+						"text-2": "Так"
+					},
+					{
+						"text-1": "Можливість фарбування:",
+						"text-2": "Так"
+					},
+					{
+						"text-1": "Сфера застосування:",
+						"text-2": "Побутова"
+					},
+					{
+						"text-1": "Вага:",
+						"text-2": "100 кг"
+					}
+				]
+			}
+		]
+	},
+	"org-top-sales": {
+		"mol-title-h2": {
+			"title": "Топ продажів"
+		},
+		"mol-producte-items": [
+			{
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Це оптимальний вибір для невеликих за площею ванних кімнат",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "27 600 грн",
+				"text-1": "Garmoniya ",
+				"text-2": "Вільностояча ванна легко встановлюється і проста в чищенні",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "31 000грн",
+				"text-1": "Garmoniya Plus",
+				"text-2": "Романтичний класичний італійський дизайн",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Це оптимальний вибір для невеликих за площею ванних кімнат",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			}
+		]
+	},
+	"org-we-offer": true,
+	"org-footer-main": {
+		"mol-footer-logo": {
+			"logo": "assets/img/logo.png",
+			"alt": "logo"
+		},
+		"mol-footer-main-content": {
+			"data": "пн-пт 9:00 - 19:00",
+			"number-1": "+38067 444 67 22",
+			"number-2": "+38067 444 67 20",
+			"number-3": "+38067 444 67 00",
+			"description": [
+				{
+					"text": "Київська обл., Бориспільский район"
+				},
+				{
+					"text": "с. Проліски, вул. Промислова 2"
+				}
+			]
+		},
+		"mol-footer-social": {
+			"social": [
+				{
+					"image": "assets/img/facebook.svg",
+					"alt": "facebook"
+				},
+				{
+					"image": "assets/img/instagram.svg",
+					"alt": "instagram"
+				}
+			]
+		}
+	},
+	"org-home-banner": {
+		"home-banner-slide": [
+			{
+				"bg-image": "assets/img/home-banner.png",
+				"mol-banner-text": {
+					"title": "Garmoniya",
+					"description": "Унікальна технологія виробництва ванн з кам’яної маси дає можливість створити витончену кольорову сантехніку більш ніж 2000 різних тонів"
+				}
+			},
+			{
+				"bg-image": "assets/img/home-banner.png",
+				"mol-banner-text": {
+					"title": "Garmoniya",
+					"description": "Унікальна технологія виробництва ванн з кам’яної маси дає можливість створити витончену кольорову сантехніку більш ніж 2000 різних тонів"
+				}
+			},
+			{
+				"bg-image": "assets/img/home-banner.png",
+				"mol-banner-text": {
+					"title": "Garmoniya",
+					"description": "Унікальна технологія виробництва ванн з кам’яної маси дає можливість створити витончену кольорову сантехніку більш ніж 2000 різних тонів"
+				}
+			}
+		],
+		"mol-banner-main-popup": true
+	},
+	"org-our-goods": {
+		"mol-title-h2": {
+			"title": "Топ продажів"
+		},
+		"producte-price-block": "producte-price-block",
+		"mol-producte-items": [
+			{
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Це оптимальний вибір для невеликих за площею ванних кімнат",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "27 600 грн",
+				"text-1": "Garmoniya ",
+				"text-2": "Вільностояча ванна легко встановлюється і проста в чищенні",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "31 000грн",
+				"text-1": "Garmoniya Plus",
+				"text-2": "Романтичний класичний італійський дизайн",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Романтичний класичний італійський дизайн",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			}
+		]
+	},
+	"org-own-bath": {
+		"bg-image": "assets/img/new-design.png",
+		"mol-own-bath-content": {
+			"mol-title-h2": {
+				"title": "Зробіть свою ванну самі"
+			},
+			"img": "assets/img/own-bath.png",
+			"alt": "bath-image",
+			"subtitle": "Основні переваги",
+			"points": [
+				{
+					"link": "Унікальна технологія виробництва ванн з кам’яної маси дає можливість створити витончену кольорову сантехніку більш ніж 2000 різних тонів."
+				},
+				{
+					"link": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність."
+				},
+				{
+					"link": "У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+				}
+			],
+			"btn": "Дізнатись більше"
+		}
+	},
+	"org-advantages": {
+		"mol-title-h2": {
+			"title": "Наші переваги"
+		},
+		"hover-blocks": [
+			{
+				"mol-advantages-content": {
+					"text-hover": [
+						{
+							"bg-image": "assets/img/advantages-1.png",
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				},
+				"mol-advantages-content-image-hover": {
+					"image-hover": [
+						{
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-image": "assets/img/advantages-3.png",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				}
+			},
+			{
+				"mol-advantages-content": {
+					"text-hover": [
+						{
+							"bg-image": "assets/img/advantages-1.png",
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				},
+				"mol-advantages-content-image-hover": {
+					"image-hover": [
+						{
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-image": "assets/img/advantages-3.png",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				}
+			},
+			{
+				"mol-advantages-content": {
+					"text-hover": [
+						{
+							"bg-image": "assets/img/advantages-1.png",
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				},
+				"mol-advantages-content-image-hover": {
+					"image-hover": [
+						{
+							"btn": "Ми сертифіковані",
+							"hover-title": "Види оплати",
+							"hover-image": "assets/img/advantages-3.png",
+							"hover-description": "На виробництві Rock Design, на замовлення клієнта виготовлять як стандартні так і нестандартні кольорові ванни і раковини, які прекрасно доповнять інтер’єр ванної кімнати надавши їй особливу неповторність. У широкому асортименті кольорові ванни, кольорові раковини, а також кольорові душові піддони."
+						}
+					]
+				}
+			}
+		]
+	},
+	"org-partners": {
+		"mol-title-h2": {
+			"title": "Наші партнери"
+		},
+		"mol-partners-logo": {
+			"logo-content": [
+				{
+					"image": "assets/img/partners-1.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-2.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-3.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-4.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-1.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-2.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-3.png",
+					"alt": "partners"
+				},
+				{
+					"image": "assets/img/partners-4.png",
+					"alt": "partners"
+				}
+			]
+		}
+	},
+	"org-map": {
+		"mol-title-h2": {
+			"title": "Ванни Rock Design продаються в 24 магазинах по всій Україні"
+		}
+	},
+	"org-my-footer": {
+		"mol-footer-lists-block": {
+			"list-block": [
+				{
+					"title": "Інтернет магазин",
+					"link": [
+						{
+							"li": "Про нас"
+						},
+						{
+							"li": "Новини"
+						},
+						{
+							"li": "Showrooms"
+						},
+						{
+							"li": "Технології"
+						}
+					]
+				},
+				{
+					"title": "Інтернет магазин",
+					"link": [
+						{
+							"li": "Про нас"
+						},
+						{
+							"li": "Новини"
+						},
+						{
+							"li": "Showrooms"
+						},
+						{
+							"li": "Технології"
+						}
+					]
+				},
+				{
+					"title": "Інтернет магазин",
+					"link": [
+						{
+							"li": "Про нас"
+						},
+						{
+							"li": "Новини"
+						},
+						{
+							"li": "Showrooms"
+						},
+						{
+							"li": "Технології"
+						}
+					]
+				}
+			]
+		},
+		"mol-footer-contact-list": {
+			"title": "Контактна інформація",
+			"phone-description": "Тел:",
+			"number-1": "+38067 444 67 22",
+			"number-2": "+38067 444 67 20",
+			"number-3": "+38067 444 67 00",
+			"email-description": "Email",
+			"mail": "office@rock-design.eu",
+			"social-description": "Контакти",
+			"facebook": "assets/img/facebook.svg",
+			"alt-facebook": "facebook",
+			"instagram": "assets/img/instagram.svg",
+			"alt-instagram": "instagram"
+		},
+		"mol-subfooter": {
+			"data": "пн-пт 9:00 - 19:00",
+			"foot-logo": "assets/img/logo.png",
+			"alt": "foot-logo",
+			"location-text": [
+				{
+					"description": "Київська обл., Бориспільский район"
+				},
+				{
+					"description": "с. Проліски, вул. Промислова 2"
+				}
+			]
+		}
+	},
+	"org-catalog-section": {
+		"catalog-section-breadcrumbs": "catalog-section-breadcrumbs",
+		"mol-producte-items": [
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Це оптимальний вибір для невеликих за площею ванних кімнат",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "27 600 грн",
+				"text-1": "Garmoniya ",
+				"text-2": "Вільностояча ванна легко встановлюється і проста в чищенні",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "31 000грн",
+				"text-1": "Garmoniya Plus",
+				"text-2": "Романтичний класичний італійський дизайн",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "24 800грн",
+				"text-1": "Simmetriya",
+				"text-2": "Це оптимальний вибір для невеликих за площею ванних кімнат",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			},
+			{
+				"producte-price-block": "producte-price-block",
+				"category-pricing": "category-pricing",
+				"category-col-lg-4": "col-lg-4",
+				"price": "18 500грн",
+				"text-1": "Барселона",
+				"text-2": "Овальна ванна в стилі барокко",
+				"btn": "Детільніше",
+				"bg-image": "assets/img/bath-1.png"
+			}
+		],
+		"mol-catalog-section-forms": {
+			"my-form": [
+				{
+					"subtitle": "Тип ванни:",
+					"inputs": [
+						{
+							"label": "Вільностоячі (14)",
+							"id": "id1",
+							"type": "type-bath"
+						},
+						{
+							"label": "Кутові (12)",
+							"id": "id2",
+							"type": "type-bath"
+						},
+						{
+							"label": "Пристінні (24)",
+							"id": "id3",
+							"type": "type-bath"
+						}
+					]
+				},
+				{
+					"subtitle": "Форма ванни:",
+					"inputs": [
+						{
+							"label": "Вільностоячі (14)",
+							"id": "id4",
+							"type": "type-form"
+						},
+						{
+							"label": "Кутові (12)",
+							"id": "id5",
+							"type": "type-form"
+						},
+						{
+							"label": "Пристінні (24)",
+							"id": "id6",
+							"type": "type-form"
+						}
+					]
+				}
+			]
+		},
+		"mol-catalog-section-range-block": true,
+		"mol-category-pagination": {
+			"pagination-list": [
+				{
+					"li": "1",
+					"active": "active"
+				},
+				{
+					"li": "2"
+				},
+				{
+					"li": "3"
+				},
+				{
+					"li": "4"
+				},
+				{
+					"li": "5"
+				}
+			]
+		}
+	},
+	"org-about-material": {
+		"mol-title-h2": {
+			"title": "Наші ванни «про матеріал»"
+		},
+		"mol-about-material-info": [
+			{
+				"title-1": "Виготовлення матеріалу",
+				"text": [
+					{
+						"text-1": "Серед широкого асортименту різних типів ванн, на особливу увагу заслуговують мармурові ванни з литого мармуру, які завдяки своєму дизайну, колірним рішенням і якості набувають все більшої популярності серед любителів вишуканих речей."
+					},
+					{
+						"text-1": "Мармурова ванна з литого мармуру — це поєднання неперевершеної якості і привабливого дизайну. Плавні лінії і оригінальні форми мармурових ванн притягають погляд, а блиск відполірованого каменю викликає бажання торкатися до неї знову і знову. Ванна, виготовлена з литого мармуру, стане центром вашої ванної кімнати, перетворюючи кожне купання в захоплюючу і приємну процедуру."
+					},
+					{
+						"text-1": "Завдяки відсутності мікротріщин і пор, в ванну з литого мармуру НЕ буде забиватися бруд, і вона впродовж довгих років служби збереже первинний свій колір. Мармур легко переносить чистку за допомогою миючих засобів будь-якого складу, досить протерти її мильною губкою і ванна знову виблискує чистотою, переливаючись на світлі."
+					}
+				]
+			},
+			{
+				"title-1": "Основні переваги литого мармуру",
+				"my-list": [
+					{
+						"link": "Мармурові ванни в Україні, поки що не набули такого широкого визнання як в інших країнах і основною причиною виступає вельми висока вартість виробу. Однак якщо ви любите оточувати себе якісними і красивими речами, якщо ви не звикли економити на власному задоволенні, тоді мармурова ванна стане для вас оптимальним рішенням."
+					},
+					{
+						"link": " Ванни з литого мармуру, як і всі інші типи ванн, можуть бути оснащені додатковими аксесуарами, наприклад гідромасажем, підсвічуванням води, датчиком автоматичного контролю температури, ручками, і так далі. Ви можете самостійно визначати для себе колір ванни, її форму і комплектацію."
+					},
+					{
+						"link": " З мармуровою ванною щоденне купання перетворитися для вас в справжній відпочинок і задоволення. Відчуйте всі тепло і красу мармуру."
+					},
+					{
+						"link": "Пропоновані фірмою “Rock Design” ванни робляться з кам’яної маси. Литий мармур (кам’яна маса) — це композитний матеріал, що складається з поліестерних смол і натуральної мармурової крихти. Процес виготовлення ванн з литого мармуру полягає в тому, щоб змішати всі компоненти (натуральна складова — 85%, хімічні речовини, що пов’язують — 15%) в рідку масу, яка за спеціальною унікальною технологією заливається в форму для ванни, а коли маса затвердіє, її виймають з форми для подальшої обробки."
+					}
+				]
+			}
+		]
+	},
+	"org-about-us-banner": {
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Про нас"
+				}
+			]
+		},
+		"mol-about-us-banner-info": {
+			"title": "Компанія Rock Design",
+			"description": " Унікальна технологія виробництва ванн з кам’яної маси дає можливість створити витончену кольорову сантехніку більш ніж 2000 різних тонів."
+		},
+		"mol-after-banner-text": {
+			"text": "Rock Design"
+		}
+	},
+	"org-about-us-what-is": {
+		"mol-title-h2": {
+			"title": "Що таке Rock Design"
+		}
+	},
+	"org-about-us-our-story": {
+		"mol-title-h2": {
+			"title": "Наша історія"
+		},
+		"our-story-items": [
+			{
+				"mol-about-us-small-item": {
+					"title": "Заснування",
+					"number": "2007"
+				}
+			},
+			{
+				"mol-about-us-big-item": {
+					"number": "2008",
+					"title": "Перший успішний опт"
+				}
+			},
+			{
+				"mol-about-us-small-item": {
+					"title": "Заснування",
+					"number": "2007"
+				}
+			},
+			{
+				"mol-about-us-big-item": {
+					"number": "2008",
+					"title": "Перший успішний опт"
+				}
+			},
+			{
+				"mol-about-us-small-item": {
+					"title": "Заснування",
+					"number": "2007"
+				}
+			},
+			{
+				"mol-about-us-big-item": {
+					"number": "2008",
+					"title": "Перший успішний опт"
+				}
+			}
+		]
+	},
+	"org-unique-baths": true,
+	"org-certificate": {
+		"mol-title-h2": {
+			"title": "Наші сертифікати"
+		},
+		"mol-after-banner-text": {
+			"certificate-block": "certificate-block",
+			"text": "Certificate"
+		}
+	},
+	"org-contact-us-content": {
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Контакти"
+				}
+			]
+		},
+		"mol-title-h2": {
+			"title": "Наші контакти"
+		},
+		"mol-contact-us-info": {
+			"title": "Ми завжди на звязку",
+			"phone-title": "Телефони:",
+			"number-1": "+38067 444 67 22",
+			"number-2": "+38067 444 67 20",
+			"number-3": "+38067 444 67 00",
+			"title-email": "Емейл:",
+			"email": "office@rock-design.eu",
+			"title-adress": "Адреса:",
+			"adress": "Київська обл., Бориспільский район С. Проліски, вул. Промислова 2",
+			"calendar-title": "Графік роб.:",
+			"calendar": "Пн-пт 9:00 - 19:00",
+			"social-title": "Соц мережі:",
+			"facebook": "assets/img/facebook.svg",
+			"facebook-alt": "facebook",
+			"instagram": "assets/img/instagram.svg",
+			"instagram-alt": "instagram"
+		},
+		"mol-contact-us-form": {
+			"title": "Напишіть нам",
+			"submit-text": "Відправити"
+		}
+	},
+	"org-showrooms-select-block": {
+		"mol-title-h2": {
+			"title": "Топ продажів"
+		},
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Про нас"
+				}
+			]
+		},
+		"mol-showrooms-select": {
+			"location-1": "Київ",
+			"location-2": "Львів",
+			"location-3": "Тернопіль",
+			"location-4": "Рівне",
+			"location-5": "Полтава"
+		}
+	},
+	"org-showrooms-partners-location": {
+		"mol-subtitle-default": {
+			"subtitle": "Наша компанія надає можливість Вам змінювати форми, розміри, обрізку,кольори та інше. в своїх моделях під Ваш інтер'єр"
+		},
+		"mol-showrooms-location-info": [
+			{
+				"img": "assets/img/showrooms-1.png",
+				"img-alt": "logo",
+				"my-list": [
+					{
+						"street-1": "Вул. Братиславська, 11",
+						"street-2": "Кільцева дорога , 1Б",
+						"street-3": "Проспект Петра Григоренка, 40"
+					},
+					{
+						"street-1": "Вул. Братиславська, 11",
+						"street-2": "Вул. Братиславська, 11",
+						"street-3": "Проспект Петра Григоренка, 40"
+					},
+					{
+						"street-1": "Вул. Братиславська, 11"
+					}
+				]
+			},
+			{
+				"img": "assets/img/showrooms-2.png",
+				"img-alt": "logo",
+				"my-list": [
+					{
+						"street-1": "Вул. Братиславська, 11",
+						"street-2": "Кільцева дорога , 1Б",
+						"street-3": "Проспект Петра Григоренка, 40"
+					},
+					{
+						"street-1": "Вул. Братиславська, 11",
+						"street-2": "Вул. Братиславська, 11",
+						"street-3": "Проспект Петра Григоренка, 40"
+					},
+					{
+						"street-1": "Вул. Братиславська, 11"
+					}
+				]
+			}
+		]
+	},
+	"org-showrooms-find-on-block": {
+		"mol-title-h2": {
+			"title": "Також нас можна знайти на сайтах інтерне магазинів"
+		},
+		"mol-find-on-content": {
+			"img-1": "assets/img/showroom-find-on-1.png",
+			"img-2": "assets/img/showroom-find-on-2.png",
+			"img-3": "assets/img/showroom-find-on-3.png",
+			"alt-1": "logo",
+			"alt-2": "logo",
+			"alt-3": "logo",
+			"list-shop": [
+				{
+					"shop-1": "Rozetka",
+					"shop-2": "Rozetka",
+					"shop-3": "Rozetka",
+					"shop-4": "Prom"
+				},
+				{
+					"central-list": "central-list",
+					"shop-1": "Rozetka",
+					"shop-2": "Rozetka",
+					"shop-3": "Rozetka",
+					"shop-4": "Prom"
+				},
+				{
+					"last-list": "last-list",
+					"shop-1": "Rozetka",
+					"shop-2": "Rozetka",
+					"shop-3": "Rozetka",
+					"shop-4": "Prom"
+				}
+			]
+		}
+	},
+	"org-review-client": {
+		"mol-subtitle-default": {
+			"subtitle": "Тут зібрані думки наших клієнтів, будем раді почути вашу думку про нашу роботу Наша компанія надає можливість Вам змінювати форми, розміри, обрізку, кольори та інше. в своїх моделях під Ваш інтер'єр"
+		},
+		"mol-review-client-item": {
+			"reviews-items": [
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star5",
+					"id2": "star4",
+					"id3": "star3",
+					"id4": "star2",
+					"id5": "star1",
+					"for-id1": "star5",
+					"for-id2": "star4",
+					"for-id3": "star3",
+					"for-id4": "star2",
+					"for-id5": "star1",
+					"start-name":"rate-1"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star6",
+					"id2": "star7",
+					"id3": "star8",
+					"id4": "star9",
+					"id5": "star10",
+					"for-id1": "star6",
+					"for-id2": "star7",
+					"for-id3": "star8",
+					"for-id4": "star9",
+					"for-id5": "star10",
+					"start-name":"rate-2"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star11",
+					"id2": "star12",
+					"id3": "star13",
+					"id4": "star14",
+					"id5": "star15",
+					"for-id1": "star11",
+					"for-id2": "star12",
+					"for-id3": "star13",
+					"for-id4": "star14",
+					"for-id5": "star15",
+					"start-name":"rate-2"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star16",
+					"id2": "star17",
+					"id3": "star18",
+					"id4": "star19",
+					"id5": "star20",
+					"for-id1": "star16",
+					"for-id2": "star17",
+					"for-id3": "star18",
+					"for-id4": "star19",
+					"for-id5": "star20",
+					"start-name":"rate-3"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star21",
+					"id2": "star22",
+					"id3": "star23",
+					"id4": "star24",
+					"id5": "star25",
+					"for-id1": "star21",
+					"for-id2": "star22",
+					"for-id3": "star23",
+					"for-id4": "star24",
+					"for-id5": "star25",
+					"start-name":"rate-4"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star26",
+					"id2": "star27",
+					"id3": "star28",
+					"id4": "star29",
+					"id5": "star30",
+					"for-id1": "star26",
+					"for-id2": "star27",
+					"for-id3": "star28",
+					"for-id4": "star29",
+					"for-id5": "star30",
+					"start-name":"rate-5"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star31",
+					"id2": "star32",
+					"id3": "star33",
+					"id4": "star34",
+					"id5": "star35",
+					"for-id1": "star31",
+					"for-id2": "star32",
+					"for-id3": "star33",
+					"for-id4": "star34",
+					"for-id5": "star35",
+					"start-name":"rate-6"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star36",
+					"id2": "star37",
+					"id3": "star38",
+					"id4": "star39",
+					"id5": "star40",
+					"for-id1": "star36",
+					"for-id2": "star37",
+					"for-id3": "star38",
+					"for-id4": "star39",
+					"for-id5": "star40",
+					"start-name":"rate-7"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star41",
+					"id2": "star42",
+					"id3": "star43",
+					"id4": "star44",
+					"id5": "star45",
+					"for-id1": "star41",
+					"for-id2": "star42",
+					"for-id3": "star43",
+					"for-id4": "star44",
+					"for-id5": "star45",
+					"start-name":"rate-8"
+				},
+				{
+					"client-image": "assets/img/client-image.png",
+					"client-image-alt": "client",
+					"name": "Анастасія",
+					"description": "Кілька місяців тому замовила ванну. Очікувала, що буде гарно, але результат перевершив усі очікування.Тепер в нашій квартирі йде боротьба за те, хто ввечері релаксує у ванні.",
+					"image-bath-1": "assets/img/reviews-image.png",
+					"image-bath-2": "assets/img/reviews-image-2.png",
+					"image-bath-1-alt": "image",
+					"image-bath-2-alt": "image",
+					"text-plus": "Плюси:",
+					"plus-span": "Комфортабельність",
+					"text-minus": "Мінуси:",
+					"minus-span": "Немає:",
+					"data": "15.10.2018",
+					"id1": "star46",
+					"id2": "star47",
+					"id3": "star48",
+					"id4": "star49",
+					"id5": "star50",
+					"for-id1": "star46",
+					"for-id2": "star47",
+					"for-id3": "star48",
+					"for-id4": "star49",
+					"for-id5": "star50",
+					"start-name":"rate-9"
+				}
+			]
+		}
+	},
+	"org-404-content": {
+		"mol-page-404-text-content": {
+			"title-1": "404",
+			"title-2": "От Халепа",
+			"description": "Невірно набрана адреса, або такої сторінки більше не існує на сайті"
+		},
+		"mol-page-404-buttons": {
+			"description": "Cподіваємось, що одне з наведених нижче посилань Допоможе вам знайти те що ви шукали",
+			"error-buttons": [
+				{
+					"btn": "Головна"
+				},
+				{
+					"catalog": "catalog",
+					"btn": "Каталог товарів"
+				},
+				{
+					"btn": "Контакти"
+				}
+			]
+		}
+	},
+	"org-purchases-content": {
+		"mol-purchases-content-info": {
+			"title": "Дякуємо!",
+			"subtitle": "За замовлення",
+			"number": "#12345",
+			"description": "Незабаром ми вам зателефонуємо для підтвердження даних та уточнення деталей",
+			"button": "Повернутись на головну"
+		}
+	},
+	"org-shipping-content-line-1": {
+		"mol-anagraph-content": {
+			"anagraphs": [
+				{
+					"img": "assets/img/anagraph-1.png",
+					"title": "Колекція",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"reverse-block": "reverse-block",
+					"img": "assets/img/anagraph-2.png",
+					"title": "Тип ванни",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"img": "assets/img/anagraph-3.png",
+					"title": "Матеріал",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				},
+				{
+					"reverse-block": "reverse-block",
+					"img": "assets/img/anagraph-1.png",
+					"title": "Термостійкість",
+					"text": "Отже «Класика» -це ванна прямокутної форми з овальною формою внутрішнього поглиблення, що утворена більш видовженими боковими стінками та двома (передньою та задньою) коротшими стінками; Художньо-конструктивне рішення ванни відповідає своєму функціональному призначенню і ергономічним вимогам, що пред’являються до виробів цієї групи і створює цілісний оригінальний художній образ, що відповідає сучасним умовам елітної технічної естетики та світосприйняття. Композиція даного рішення відрізняється простотою та приємним естетичним сприйняттям,цілеспрямованістю призначення"
+				}
+			]
+		},
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Про нас"
+				}
+			]
+		}
+	},
+	"org-basket-content": {
+		"mol-title-h2": {
+			"title": "Оформлення замовлення"
+		},
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Корзина"
+				}
+			]
+		},
+		"mol-basket-content-form": {
+			"title": "1. Контактні данні",
+			"subtitle-delivery": "Спосіб доставки:",
+			"label-1": "Нова пошта",
+			"label-1-id": "basket-1",
+			"label-2": "До дверей",
+			"label-2-id": "basket-2",
+			"label-3": "Delivery",
+			"label-3-id": "basket-3",
+			"label-4": "Intime",
+			"label-4-id": "basket-4",
+			"delivery-name": "delivery",
+			"form-description": "Доставка безкоштовна",
+			"address-subtitle": "Адреса одержувача:",
+			"payment-subtitle": "Спосіб оплати:",
+			"payment-method-1": "Готівка курєр",
+			"payment-id-1": "basket-5",
+			"payment-method-2": "Банківський переказ",
+			"payment-id-2": "basket-6",
+			"payment-method-3": "Зворотня доставка",
+			"payment-id-3": "basket-7",
+			"payment-method-4": "Liqpay",
+			"payment-id-4": "basket-8",
+			"payment-label-name": "cash",
+			"promo-code-description": "Введіть промокод на знижку, якщо такий є"
+		},
+		"mol-basket-content-goods": {
+			"title": "Вміст кошику",
+			"sybtitle": "Ванна «Барселона»",
+			"secvices-description": "Додаткові послуги:",
+			"btn-text": "Обрізати симетрично",
+			"calculator-title": "Кількість:",
+			"producte-number": "# 330054",
+			"producte-price": "26 900 грн",
+			"producte-image": "assets/img/basket-img-item.png",
+			"producte-image-alt": "producte",
+			"btn-close": "assets/img/close.svg",
+			"btn-close-alt": "close"
+		}
+	},
+	"org-basket-single-content": {
+		"mol-title-h2": {
+			"title": "Нажаль ваша корзина порожня :("
+		},
+		"mol-breadcumbs": {
+			"bread-list": [
+				{
+					"li": "Головна"
+				},
+				{
+					"li": "Кошик"
+				}
+			]
+		}
+	}
+}

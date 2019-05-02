@@ -1,0 +1,167 @@
+.about-us-banner {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 85px;
+  // border-top: 1px solid #D3D3D3;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    &__title {
+      position: relative;
+      display: block;
+      padding-top: 95px;
+      h2 {
+        font-family: 'Helvetica Medium';
+        font-size: 2.25rem;
+        color: #59708F;
+        margin: 0;
+        padding: 0 0 42px 0;
+      }
+      p {
+        color: #707070;
+        font-size: 1.25rem;
+        font-family: 'Helvetica Regular';
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 595px;
+        line-height: 1.6rem;
+      }
+    }
+    &__image {
+      width: 50vw;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 640px;
+    }
+  }
+}
+
+.main-breadcumbs {
+  position: relative;
+  left: 0;
+  z-index: 100;
+  padding-top: 77px;
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:0;
+    margin: 0;
+    li {
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: #8E8E8E;
+        transition: all .3s ease-in-out;
+        font-size: .875rem;
+        font-family: 'Helvetica Light';
+        &:after {
+          content: '>';
+        }
+
+        &:hover {
+          color: #59708F;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.about-us-rock-design h3 {
+  color: #E3EAF2;
+  font-size: 12.6rem;
+  font-family: 'Helvetica Bold';
+  position: absolute;
+  left: -45px;
+  margin: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.about-us-line-2 {
+  width: 100%;
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.main-breadcumbs ul li:last-child a:after {
+  content: '';
+}
+ @media screen and (max-width:992px) {
+  .about-us-section-item:last-child {
+    padding: 0;
+  }
+   .about-us-rock-design {
+     display: none;
+   }
+   .about-us-banner__main__image {
+     width: 100%;
+     position: relative;
+   }
+   .about-us-banner__main__title {
+     padding-top: 25px;
+     padding-bottom: 25px;
+     text-align: center;
+   }
+   .about-us-banner__main__title h2 {
+     font-size: 1.2rem;
+     padding-bottom: 15px;
+   }
+   .about-us-banner__main__title p {
+     font-size: .875rem;
+   }
+   .about-us-line-2 {
+     height: 350px;
+   }
+   .about-us-banner__main__image {
+    height: 350px;
+    background-position: 50% 50%;
+   }
+ }
+  @media screen and (max-width:600px) {
+    .about-us-banner__main__image {
+      height: 250px;
+    }
+    .about-us-line-2 {
+      height: auto;
+    }
+ }
+  @media screen and (max-width:768px) {
+    .about-us-global-main {
+      flex-direction: column;
+    }
+    .what-is-section__main__image-block-3 {
+      border: 1px solid #d3d3d3;
+      border-bottom: none;
+    }
+    .what-is-section__main__image-block-2 {
+      border: 1px solid #d3d3d3;
+      border-top: none;
+    }
+    .what-is-section__main__image-block-1 {
+      border: 1px solid #d3d3d3;
+      border-bottom: none;
+    }
+  }
+
+   @media screen and (min-width:992px) and (max-width:1200px) {
+    .about-us-rock-design h3 {
+      font-size: 9rem;
+      bottom: 5%;
+    }
+   }

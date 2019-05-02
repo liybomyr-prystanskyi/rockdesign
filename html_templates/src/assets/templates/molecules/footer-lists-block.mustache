@@ -1,0 +1,24 @@
+{{#mol-footer-lists-block}}
+<div class="col-12 col-lg-7 ">
+  <div class="row d-flex justify-content-between">
+    {{#list-block}}
+    <div class="col-12 col-lg-4 footer-list-margin">
+      <div class="my-footer__list">
+        {{#title}}
+        <h2>{{{title}}}</h2>
+        {{/title}}
+        <ul>
+          {{#link}}
+          <li>
+            <a href="#">
+              {{{li}}}
+            </a>
+          </li>
+          {{/link}}
+        </ul>
+      </div>
+    </div>
+    {{/list-block}}
+  </div>
+</div>
+{{/mol-footer-lists-block}}

@@ -1,0 +1,74 @@
+{{#mol-basket-content-goods}}
+<div class="basket-goods__main">
+	{{#title}}
+	<div class="basket-goods__main__item">
+		<h2>{{{title}}}</h2>
+	</div>
+	{{/title}}
+	{{#my-producte}}
+	<div class="basket-goods__main__item">
+		<div class="basket-goods__main__content__item">
+			<div class="row justify-content-between basket-item-blocks">
+				<div class="col-12 col-lg-5">
+					{{#sybtitle}}
+					<h3>{{{sybtitle}}}</h3>
+					{{/sybtitle}}
+
+					{{#secvices-description}}
+					<h4>{{{secvices-description}}}</h4>
+					{{/secvices-description}}
+					<div class="basket-goods__main__content__item__button">
+						<button type="button" class="btn btn-toggle active" data-toggle="button" aria-pressed="true"
+							autocomplete="off">
+							<div class="handle"></div>
+						</button>
+						{{#btn-text}}
+						<p>{{{btn-text}}}</p>
+						{{/btn-text}}
+					</div>
+					<div class="row align-items-center m-0">
+						{{#calculator-title}}
+						<div class="counter basket-counter">
+							<p>{{{calculator-title}}}</p>
+							<a href="#" class="counter__ctrl counter__ctrl--less">-</a>
+							<input type="text" value="1">
+							<a href="#" class="counter__ctrl counter__ctrl--more">+</a>
+						</div>
+						{{/calculator-title}}
+					</div>
+				</div>
+				<div class="col-12 col-lg-5 producte-padding">
+					<div class="basket-goods__main__content__item__producte-info">
+						{{#producte-number}}
+						<div class="basket-goods__main__content__item__producte-info__color">
+							<p>{{{producte-number}}}</p>
+						</div>
+						{{/producte-number}}
+
+						{{#producte-price}}
+						<div class="basket-goods__main__content__item__producte-info__price">
+							<p>{{{producte-price}}}</p>
+						</div>
+						{{/producte-price}}
+					</div>
+
+					{{#producte-image}}
+					<div class="basket-goods__main__content__item__image">
+						<img src="{{{producte-image}}}" alt="{{{producte-image-alt}}}">
+					</div>
+					{{/producte-image}}
+				</div>
+			</div>
+		</div>
+		{{#btn-close}}
+		<div class="basket-goods__main__item__close">
+			<img src="{{{btn-close}}}" alt="{{{btn-close-alt}}}">
+		</div>
+		{{/btn-close}}
+	</div>
+	{{/my-producte}}
+	<div class="basket-goods__main__result">
+		<p>Разом 53 800 грн</p>
+	</div>
+</div>
+{{/mol-basket-content-goods}}

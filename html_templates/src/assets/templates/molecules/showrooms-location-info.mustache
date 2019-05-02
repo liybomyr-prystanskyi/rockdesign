@@ -1,0 +1,26 @@
+{{#mol-showrooms-location-info}}
+<div class="showrooms-partners-location__main__info-block">
+	<div class="row">
+		<div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+			<a href="#">
+				<img src="{{{img}}}" alt="{{{img-alt}}}">
+			</a>
+		</div>
+		{{#my-list}}
+		<div class="col-12 col-lg-3">
+			<ul>
+				{{#street-1}}
+				<li>{{{street-1}}}</li>
+				{{/street-1}}
+				{{#street-2}}
+				<li>{{{street-2}}}</li>
+				{{/street-2}}
+				{{#street-3}}
+				<li>{{{street-3}}}</li>
+				{{/street-3}}
+			</ul>
+		</div>
+		{{/my-list}}
+	</div>
+</div>
+{{/mol-showrooms-location-info}}

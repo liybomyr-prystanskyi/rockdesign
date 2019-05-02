@@ -1,0 +1,46 @@
+{{#mol-header-nav}}
+<div class="container claerfix d-flex justify-content-between ">
+  <div class="w-100 main-menu">
+    <div class="row w-100">
+      <div class="col-2 col-lg-3 d-flex my-logotype">
+        <a href="#">
+          <img class="brand-style" src="{{{header-logo}}}" alt="{{{alt}}}">
+        </a>
+      </div>
+      <div class="spinner-master">
+        <input type="checkbox" id="spinner-form" />
+        <label for="spinner-form" class="spinner-spin">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
+      </div>
+      <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+        <nav id="menu" class="menu-header ">
+          <ul class="dropdown">
+            {{#nav-menu}}
+            <li><a href="{{{href}}}" title="Link">{{{li}}}</a></li>
+            {{/nav-menu}}
+          </ul>
+        </nav>
+      </div>
+      <div class="col-12 col-lg-3 d-flex justify-content-end align-items-center">
+        <div class="personal-contact">
+          <div class="header-basket d-none d-lg-flex">
+            <a href="#">
+              <img src="assets/img/basket.svg" alt="basket">
+              Корзина <span>(1)</span>
+            </a>
+          </div>
+          {{#number}}
+          <div class="header-phone d-none d-lg-flex">
+            <img src="{{{phone-image}}}" alt="{{{phone-alt}}}">
+            <a href="tel:+38067 444 67 20">{{{number}}}</a>
+          </div>
+          {{/number}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{/mol-header-nav}}

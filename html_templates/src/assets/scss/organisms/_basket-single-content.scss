@@ -1,0 +1,41 @@
+.basket-single {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 85px;
+  padding-top: 77px;
+  padding-bottom: 30px;
+  &__main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D3D3D3;
+  }
+}
+
+.subtitle-text {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 15px 0 0 0;
+  span {
+    color: #A7B5C5;
+    font-size: 1.25rem;
+    font-family: 'Helvetica Medium';
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .subtitle-text span {
+    font-size: 1rem;
+  }
+  .basket-single__main {
+    padding-bottom: 10px;
+  }
+  .basket-single {
+    padding-bottom: 10px;
+  }
+}

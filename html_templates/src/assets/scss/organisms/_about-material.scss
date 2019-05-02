@@ -1,0 +1,50 @@
+.about-material {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 185px;
+  padding-top: 130px;
+  &__title {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #D3D3D3;
+    margin-bottom: 105px;
+    h2 {
+      color: #59708F;
+      font-size: 1.875rem;
+      font-family: 'Helvetica Medium';
+      margin: 0;
+    }
+  }
+}
+@media screen and (max-width:992px) {
+  .about-material__title h2 {
+    font-size: 1.4rem;
+  }
+  .about-material__title {
+    margin-bottom: 35px;
+  }
+  .about-material {
+    padding-top: 65px;
+    padding-bottom: 50px;
+  }
+
+  .about-material__title h2 {
+    padding-bottom: 10px !important;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .about-material__info h3 {
+    padding-bottom: 20px;
+  }
+  .about-material__title {
+    margin-bottom: 50px;
+  }
+  .shipping-about-material {
+    padding-top: 50px;
+    padding-bottom: 50px;
+   }
+}

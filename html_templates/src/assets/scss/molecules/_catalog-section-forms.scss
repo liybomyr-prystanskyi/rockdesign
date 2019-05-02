@@ -1,0 +1,27 @@
+.filter-form-style {
+  width: 100%;
+  height: auto;
+  position: relative;
+  h3 {
+    color: #8194AB;
+    font-size: 1.125rem;
+    font-family: 'Helvetica Regular';
+    margin: 0 0 23px 0;
+  }
+  p {
+    color: #8E8E8E;
+    font-size: 1rem;
+    font-family: 'Helvetica Thin';
+    padding: 0;
+    margin: 0 0 10px 0;
+    label {
+      margin: 0;
+    }
+  }
+}
+ @media screen and (max-width:992px) {
+  .filter-form-style h3 {
+    margin: 20px 0 10px 0;
+  }
+
+ }

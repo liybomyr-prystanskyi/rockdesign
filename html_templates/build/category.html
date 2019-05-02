@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
+
+
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>Category</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav_wrapper">
+            <div class="container claerfix d-flex justify-content-between ">
+                <div class="w-100 main-menu">
+                    <div class="row w-100">
+                        <div class="col-2 col-lg-3 d-flex my-logotype">
+                            <a href="#">
+                                <img class="brand-style" src="assets/img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="spinner-master">
+                            <input type="checkbox" id="spinner-form" />
+                            <label for="spinner-form" class="spinner-spin">
+                                <div class="spinner diagonal part-1"></div>
+                                <div class="spinner horizontal"></div>
+                                <div class="spinner diagonal part-2"></div>
+                            </label>
+                        </div>
+                        <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                            <nav id="menu" class="menu-header ">
+                                <ul class="dropdown">
+                                    <li><a href="#Link" title="Link">Ванни</a></li>
+                                    <li><a href="#Link" title="Link">Про нас</a></li>
+                                    <li><a href="#Link" title="Link">Доставка/Оплата</a></li>
+                                    <li><a href="#Link" title="Link">Гарантії</a></li>
+                                    <li><a href="#Link" title="Link">Відгуки</a></li>
+                                    <li><a href="#Link" title="Link">Showrooms</a></li>
+                                    <li><a href="#Link" title="Link">Контакти</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-12 col-lg-3 d-flex justify-content-end align-items-center">
+                            <div class="personal-contact">
+                                <div class="header-basket d-none d-lg-flex">
+                                    <a href="#">
+                                        <img src="assets/img/basket.svg" alt="basket">
+                                        Корзина <span>(1)</span>
+                                    </a>
+                                </div>
+                                <div class="header-phone d-none d-lg-flex">
+                                    <img src="assets/img/header-phone.svg" alt="phone">
+                                    <a href="tel:+38067 444 67 20">+38067 444 67 20</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="catalog-section">
+        <div class="container">
+            <div class="row catalog-content">
+                <div class="col-12 col-lg-4">
+                    <div class="banner-main__breadcrumbs catalog-section-breadcrumbs">
+                        <ul>
+                            <li><a href="#">Головна</a></li>
+                            <li><a href="#">Ванни</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-8">
+                    <div class="catalog-section__title">
+                        <h2>Ванни з литого мармуру</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none">
+                <div class="main-tabs">
+                    <div class="container">
+                        <div class="row justify-content-around">
+                            <div class="col-12 text-center tab-style-1">
+                                <div class="tab-btn b-question hide" data-target="#q1">
+                                    <a href="#">
+                                        Підбір параметрів
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="q1" class="b-answer">
+                                    <form class="filter-form-style" action="#">
+                                        <div>
+                                            <h3>Тип ванни:</h3>
+                                            <div class="md-radio">
+                                                <input type="radio" name="type-bath" id="id20">
+                                                <label for="id20">Вільностоячі (14)</label>
+                                                <input type="radio" name="type-bath" id="id21">
+                                                <label for="id21">Кутові (12)</label>
+                                                <input type="radio" name="type-bath" id="id22">
+                                                <label for="id22">Пристінні (24)</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h3>Форма ванни:</h3>
+                                            <div class="md-radio">
+                                                <input type="radio" name="type-form" id="id24">
+                                                <label for="id24">Асиметрична</label>
+                                                <input type="radio" name="type-form" id="id25">
+                                                <label for="id25">Овальна</label>
+                                                <input type="radio" name="type-form" id="id26">
+                                                <label for="id26">Прямокутна</label>
+                                            </div>
+                                        </div>
+                                        <div class="catalog-section__sidebar__length-range-block">
+                                            <h3>Довжина:</h3>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <div class="catalog-section__sidebar__length-range-block__count">
+                                                    <label for="min-length-mobile">від</label>
+                                                    <input type="text" min="0" max="9900" id="min-length-mobile" class="min-length-field">
+                                                </div>
+
+                                                <div class="catalog-section__sidebar__length-range-block__count">
+                                                    <label for="max-length-mobile">до</label>
+                                                    <input type="text" min="0" max="9900" id="max-length-mobile" class="max-length-field">
+                                                    <span class="ml-1">см</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="catalog-section__sidebar__length-range-block">
+                                            <h3>Ширина:</h3>
+                                            <div class="d-flex align-items-center justify-content-start">
+                                                <div class="catalog-section__sidebar__length-range-block__count">
+                                                    <label for="min-width-mobile">від</label>
+                                                    <input type="text" min="0" max="9900" id="min-width-mobile" class="min-length-field">
+                                                </div>
+
+                                                <div class="catalog-section__sidebar__length-range-block__count">
+                                                    <label for="max-width-mobile">до</label>
+                                                    <input type="text" min="0" max="9900" id="max-width-mobile" class="max-length-field">
+                                                    <span class="ml-1">см</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="price-range-block price-range-margin-style clearfix">
+                                            <h2>Ціна:</h2>
+                                            <div class="my-style-rynger">
+                                                <div class="range-slider">
+                                                    <span id="rs-bullet-mobile" class="rs-label">0</span>
+                                                    <input id="rs-range-line-mobile" class="rs-range" type="range" value="0" min="0" max="45000">
+                                                </div>
+                                                <div class="box-minmax">
+                                                    <span class="from-price">від 12000</span><span class="to-price">45000 грн</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-12 col-lg-3 catalog-section__sidebar">
+                    <div class="d-none d-lg-block">
+                        <h4>Підбір параметрів</h4>
+                        <form class="filter-form-style" action="#">
+                            <div class="form-block-items">
+                                <h3>Тип ванни:</h3>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-bath" id="id1">
+                                    <label for="id1">Вільностоячі (14)</label>
+                                </div>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-bath" id="id2">
+                                    <label for="id2">Кутові (12)</label>
+                                </div>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-bath" id="id3">
+                                    <label for="id3">Пристінні (24)</label>
+                                </div>
+                            </div>
+                            <div class="form-block-items">
+                                <h3>Форма ванни:</h3>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-form" id="id4">
+                                    <label for="id4">Вільностоячі (14)</label>
+                                </div>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-form" id="id5">
+                                    <label for="id5">Кутові (12)</label>
+                                </div>
+                                <div class="md-radio">
+                                    <input type="radio" name="type-form" id="id6">
+                                    <label for="id6">Пристінні (24)</label>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="catalog-section__sidebar__length-range-block">
+                            <h3>Довжина:</h3>
+                            <div class="d-flex align-items-center justify-content-start">
+                                <div class="catalog-section__sidebar__length-range-block__count">
+                                    <label for="min-length">від</label>
+                                    <input type="text" min="0" max="9900" id="min-length" class="min-length-field">
+                                </div>
+                                <div class="catalog-section__sidebar__length-range-block__count">
+                                    <label for="max-length">до</label>
+                                    <input type="text" min="0" max="9900" id="max-length" class="max-length-field">
+                                    <span class="ml-1">см</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog-section__sidebar__length-range-block">
+                            <h3>Ширина:</h3>
+                            <div class="d-flex align-items-center justify-content-start">
+                                <div class="catalog-section__sidebar__length-range-block__count">
+                                    <label for="min-width">від</label>
+                                    <input type="text" min="0" max="9900" id="min-width" class="min-length-field">
+                                </div>
+                                <div class="catalog-section__sidebar__length-range-block__count">
+                                    <label for="max-width">до</label>
+                                    <input type="text" min="0" max="9900" id="max-width" class="max-length-field">
+                                    <span class="ml-1">см</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-range-block price-range-margin-style clearfix">
+                            <h2>Ціна:</h2>
+                            <div class="my-style-rynger">
+                                <div class="range-slider">
+                                    <span id="rs-bullet" class="rs-label">0</span>
+                                    <input id="rs-range-line" class="rs-range" type="range" value="0" min="0" max="45000">
+                                </div>
+                                <div class="box-minmax">
+                                    <span class="from-price">від 12000</span><span class="to-price">45000 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row m-0">
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 24 800грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Simmetriya</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Це оптимальний вибір для невеликих за площею ванних кімнат</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 27 600 грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Garmoniya </h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Вільностояча ванна легко встановлюється і проста в чищенні</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 31 000грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Garmoniya Plus</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Романтичний класичний італійський дизайн</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 24 800грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Simmetriya</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Це оптимальний вибір для невеликих за площею ванних кімнат</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 my-item producte-price-block col-lg-4 ">
+                            <div class="category-pricing">
+                                <div class="top-sales__main__product__item">
+                                    <div class="top-sales__main__product__item__price ">
+                                        <p>від 18 500грн</p>
+                                    </div>
+                                    <div class="top-sales__main__product__item__image" style="background-image:url(assets/img/bath-1.png)">
+                                    </div>
+                                    <div class="top-sales__main__product__item__info">
+                                        <h2>Барселона</h2>
+                                    </div>
+                                    <div class="description-hover">
+                                        <p>Овальна ванна в стилі барокко</p>
+                                    </div>
+                                </div>
+                                <div class="top-sales__main__product__item__button">
+                                    <a href="#">Детільніше</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-section__pagination">
+                    <ul class="d-flex">
+                        <li><a href="#">
+                                <img src="assets/img/pagination-left-arrow.svg" alt="pagination-left">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">
+                                <span>1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <span>2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <span>3</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <span>4</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <span>5</span>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <img src="assets/img/pagination-right-arrow.svg" alt="pagination-right">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-material ">
+        <div class="container">
+            <div class="about-material__title">
+                <div class="title-h2  ">
+                    <h2>Наші ванни «про матеріал»</h2>
+                </div>
+            </div>
+            <div class="about-material__info">
+                <h3>Виготовлення матеріалу</h3>
+
+                <p>Серед широкого асортименту різних типів ванн, на особливу увагу заслуговують мармурові ванни з литого мармуру, які завдяки своєму дизайну, колірним рішенням і якості набувають все більшої популярності серед любителів вишуканих речей.</p>
+                <p>Мармурова ванна з литого мармуру — це поєднання неперевершеної якості і привабливого дизайну. Плавні лінії і оригінальні форми мармурових ванн притягають погляд, а блиск відполірованого каменю викликає бажання торкатися до неї знову і знову. Ванна, виготовлена з литого мармуру, стане центром вашої ванної кімнати, перетворюючи кожне купання в захоплюючу і приємну процедуру.</p>
+                <p>Завдяки відсутності мікротріщин і пор, в ванну з литого мармуру НЕ буде забиватися бруд, і вона впродовж довгих років служби збереже первинний свій колір. Мармур легко переносить чистку за допомогою миючих засобів будь-якого складу, досить протерти її мильною губкою і ванна знову виблискує чистотою, переливаючись на світлі.</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="about-material__info">
+                <h3>Основні переваги литого мармуру</h3>
+
+                <ul>
+                    <li>
+                        Мармурові ванни в Україні, поки що не набули такого широкого визнання як в інших країнах і основною причиною виступає вельми висока вартість виробу. Однак якщо ви любите оточувати себе якісними і красивими речами, якщо ви не звикли економити на власному задоволенні, тоді мармурова ванна стане для вас оптимальним рішенням.
+                    </li>
+                    <li>
+                        Ванни з литого мармуру, як і всі інші типи ванн, можуть бути оснащені додатковими аксесуарами, наприклад гідромасажем, підсвічуванням води, датчиком автоматичного контролю температури, ручками, і так далі. Ви можете самостійно визначати для себе колір ванни, її форму і комплектацію.
+                    </li>
+                    <li>
+                        З мармуровою ванною щоденне купання перетворитися для вас в справжній відпочинок і задоволення. Відчуйте всі тепло і красу мармуру.
+                    </li>
+                    <li>
+                        Пропоновані фірмою “Rock Design” ванни робляться з кам’яної маси. Литий мармур (кам’яна маса) — це композитний матеріал, що складається з поліестерних смол і натуральної мармурової крихти. Процес виготовлення ванн з литого мармуру полягає в тому, щоб змішати всі компоненти (натуральна складова — 85%, хімічні речовини, що пов’язують — 15%) в рідку масу, яка за спеціальною унікальною технологією заливається в форму для ванни, а коли маса затвердіє, її виймають з форми для подальшої обробки.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="we-offer">
+        <div class="container">
+            <h2>Ми пропонуєм сервіс встановлення під ключ</h2>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="my-footer">
+                        <div class="row">
+                            <div class="col-12 col-lg-7 ">
+                                <div class="row d-flex justify-content-between">
+                                    <div class="col-12 col-lg-4 footer-list-margin">
+                                        <div class="my-footer__list">
+                                            <h2>Інтернет магазин</h2>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Про нас
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Новини
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Showrooms
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Технології
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 footer-list-margin">
+                                        <div class="my-footer__list">
+                                            <h2>Каталог товарів</h2>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Ванни
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 footer-list-margin">
+                                        <div class="my-footer__list">
+                                            <h2>Інформація для покупців</h2>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Сервіс
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Гарантії
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Доставка і оплата
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Відгуки
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5  contact-list-main-block">
+                                <div class="my-footer__contact-info">
+                                    <h2>Контактна інформація</h2>
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>
+                                                Тел:
+                                            </p>
+                                            <a href="tel:+38067 444 67 22">+38067 444 67 22</a>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-end align-items-end">
+                                            <a href="tel:+38067 444 67 20">+38067 444 67 20</a>
+                                            <a href="tel:+38067 444 67 00">+38067 444 67 00</a>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>Email:</p>
+                                            <a href="mailto:office@rock-design.eu">office@rock-design.eu</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex  align-items-end flex-column social-link">
+                                        <a href="#" class="pr-0">
+                                            Контакти
+                                        </a>
+
+                                        <div class="d-flex justify-content-end">
+                                            <a href="#">
+                                                <img src="assets/img/facebook.svg" alt="facebook">
+                                            </a>
+                                            <a href="#">
+                                                <img src="assets/img/instagram.svg" alt="instagram">
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center subfooter-position">
+                <div class="col-12 col-lg-4">
+                    <div class="my-footer__data">
+                        <p>пн-пт 9:00 - 19:00</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="my-footer__foot-logo">
+                        <a href="#">
+                            <img src="assets/img/logo.png" alt="foot-logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="my-footer__location">
+                        <p>Київська обл., Бориспільский район</p>
+                        <p>с. Проліски, вул. Промислова 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Jquery -->
+    <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+
+
+    <script>
+        function showSliderValue() {
+            rangeBullet.innerHTML = rangeSlider.value;
+            var bulletPosition = (rangeSlider.value / rangeSlider.max);
+            rangeBullet.style.left = (bulletPosition * 115) + "px";
+        }
+        ///
+        var rangeSlider = document.getElementById("rs-range-line");
+        var rangeBullet = document.getElementById("rs-bullet");
+        rangeSlider.addEventListener("input", showSliderValue, false);
+
+
+        function showSliderValue1() {
+            rangeBullet1.innerHTML = rangeSlider1.value;
+            var bulletPosition1 = (rangeSlider1.value / rangeSlider1.max);
+            rangeBullet1.style.left = (bulletPosition1 * 115) + "px";
+        }
+        ///
+        var rangeSlider1 = document.getElementById("rs-range-line-mobile");
+        var rangeBullet1 = document.getElementById("rs-bullet-mobile");
+        rangeSlider1.addEventListener("input", showSliderValue1, false);
+    </script>
+
+    <script src="assets/js/vendors/nice-select.js"></script>
+
+    <!-- Slick slider -->
+    <script src="assets/js/vendors/slick.min.js"></script>
+
+    <!-- Animate on scroll -->
+    <script src="assets/js/vendors/aos.js"></script>
+
+
+    <!-- Bootstrap -->
+    <script src="assets/js/vendors/bootstrap.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+
+    <script src="assets/js/script.min.js"></script>
+
+</body>
+
+</html>

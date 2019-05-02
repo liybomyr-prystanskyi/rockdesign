@@ -1,0 +1,24 @@
+{{#mol-producte-items}}
+<div class="col-12 my-item {{producte-price-block}} {{category-col-lg-4}} ">
+	<div class="{{category-pricing}}">
+		<div class="top-sales__main__product__item">
+			<div class="top-sales__main__product__item__price ">
+				<p>{{{price}}}</p>
+			</div>
+			<div class="top-sales__main__product__item__image" style="background-image:url({{{bg-image}}})">
+			</div>
+			<div class="top-sales__main__product__item__info">
+				<h2>{{{text-1}}}</h2>
+			</div>
+			<div class="description-hover">
+				{{#text-2}}
+				<p>{{{text-2}}}</p>
+				{{/text-2}}
+			</div>
+		</div>
+		<div class="top-sales__main__product__item__button">
+			<a href="#">{{{btn}}}</a>
+		</div>
+	</div>
+</div>
+{{/mol-producte-items}}
